@@ -1,31 +1,35 @@
----
-title: Authentication
-layout: reference
----
 
-### Special Note: (Please Read First)
+
+## Authentication Overview
+### Special Note (Please Read First)
 
 If you are an existing partner with an existing app, please read both the [Migration to Oauth2 Tokens](/api-reference/authentication/migrationguide.html) and [Getting Started](/api-reference/authentication/getting-started.html) documentation first. If you have any questions, please contact your Partner Enablement team representative before proceeding.
 
+
 * [Overview]()
-* [Tokens](#access_token)
-  * [Obtaining a token](#obtain_token)
-  * [Refreshing a token](#refresh_token)
-  * [Revoking a token](#revoke_token)
-  * [Token Management](#manage_token)
-  * [Base URIs & Geolocation](#base_uri)
-  * [ID Token](#id_token)
+
+  * [Tokens](#access-tokens)
+  * [Obtaining a token](#obtaining-a-token)
+  * [Refreshing a token](#refreshing-a-token)
+  * [Revoking a token](#revoking-a-token)
+  * [Token Management](#token-management)
+  * [Base URIs & Geolocation](#base-uris--amp--geolocation)
+  * [ID Token](#id-token)
 * Types of grants
-  * [Authorization grant](#auth_grant)
-  * [Password grant](#password_grant)
-  * [Client Credentials grant](#client_credentials)
-  * [One Time Password grant](#otp_grant)
-* [Response Codes](#response_codes)
+  * [Authorization grant](#authorization-grant)
+  * [Password grant](#password-grant)
+  * [Client Credentials grant](#client-credentials-grant)
+  * [One Time Password grant](#one-time-password-grant)
+* [Response Codes](#response-codes)
 * [Troubleshooting](#troubleshooting)
+* [Enterprise Business Applications](#enterprise-business-applications)
 
 **Note:** The Pre-2017 Authorization (Deprecated) documentation be found [here](/api-reference/authentication/authorization-pre-2017.html)
 
-## <a name="access_token"></a>Access Tokens
+
+
+### Access Tokens
+<!--## <a name="access_token"></a>Access Tokens-->
 
 The Oauth2 service generates access tokens for authenticated users, applications or companies. The token returned in the Oauth2 response can be used to access protected resources on SAP Concur services.
 
@@ -63,8 +67,8 @@ Connection: Close
 }
 ```
 
-
-## <a name="obtain_token"></a>Obtaining a token
+### Obtaining A Token
+<!--## <a name="obtain_token"></a>Obtaining a token-->
 
 You can obtain a token for three different types of principals in the SAP Concur universe.
 
@@ -78,12 +82,13 @@ An `accessToken` has a one hour lifetime.
 
 In order to obtain a token, the client application needs to call the Oauth2 endpoint using various `grants` depending on the authentication scenarios required. The full list of supported scenarios is provided below:
 
-  * [Authorization grant](#auth_grant)
+  * [Authorization grant](#authorization-grant)
   * [Password grant](#password_grant)
-  * [Client Credentials grant](#client_credentials)
-  * [One Time Password grant](#otp_grant)
+  * [Client Credentials grant](#client-credentials-grant)
+  * [One Time Password grant](#one-time-password-grant)
 
-## <a name="refresh_token"></a>Refreshing a token
+### Refreshing A Token
+<!--## <a name="refresh_token"></a>Refreshing a token-->
 
 
 The refresh grant is used to refresh an access_token that has expired. This grant can be used anytime a refresh_token is returned in the response of another grant request. No user interaction is required.
@@ -150,8 +155,8 @@ Connection: Close
   "geolocation": "https://us.api.concursolutions.com"
 }
 ```
-
-## <a name="revoke_token"></a>Revoking a token
+### Revoking A Token
+<!--## <a name="revoke_token"></a>Revoking a token-->
 
 All refresh_tokens associated to a user for an application can be revoked by calling the `https://us.api.concursolutions.com/app-mgmt/v0/connections` endpoint with a `DELETE` action. You have to provide the User's `accessToken` in the Authorization Header as `Authorization: Bearer <access_token>`.
 
@@ -172,7 +177,9 @@ Authorization: Bearer {token}
 HTTP/1.1 200 OK
 ```
 
-## <a name="manage_token"></a>Managing tokens
+
+### Token Management
+<!--## <a name="manage_token"></a>Managing tokens-->
 
 Refresh Tokens are UUID4 identifiers that allow your application to obtain a fresh `accessToken` on behalf of a user to access SAP Concur APIs.
 
@@ -184,7 +191,8 @@ It is highly recommended that you store Refresh Tokens together with your user's
 
 FOR APP CENTER AND SUPPLIER PARTNERS supporting all geolocations, storing the authorization metadata, including the geolocation are REQUIRED.
 
-## <a name="base_uri"></a>Base URIs
+### Base URIs & Geolocation
+<!--## <a name="base_uri"></a>Base URIs-->
 
 When making API calls, the appropriate base URI should be used. There are three different scenarios:
 1. Obtaining a token for a user.
@@ -232,8 +240,8 @@ Connection: Close
 
 When then calling the receipts API to post a receipt, your request should be made to https://us.api.concursolutions.com (if server side) or https://www-us.api.concursolutions.com (for clients).
 
-
-## <a name="id_token"></a>ID Token
+### ID Token
+<!--## <a name="id_token"></a>ID Token-->
 
 Authentication service will return an [OPENID](http://openid.net) compatible [ID token](http://openid.net/specs/openid-connect-core-1_0.html#IDToken) with every token request. This `id_token` is primarily used to describe information about a user or a company. You can obtain the userId from this token.
 
@@ -259,7 +267,10 @@ The Authentication service exposes [JWKs](https://tools.ietf.org/html/rfc7517) t
 
 This is the link to the SAP Concur JSON Web Key for Oauth2. [https://www-us.api.concursolutions.com/oauth2/v0/jwks](https://www-us.api.concursolutions.com/oauth2/v0/jwks)
 
-## <a name="auth_grant"></a>Authorization grant
+### Types of Grants
+
+### Authorization Grant
+<!--## <a name="auth_grant"></a>Authorization grant-->
 
 The authorization grant is the regular 3-legged oauth2 grant and is defined in detail in [RFC6749 sec-4.1](https://tools.ietf.org/html/rfc6749#section-4.1). This grant requires the user to explicitly authenticate themselves and authorise the application initiating the grant.
 
@@ -294,7 +305,7 @@ With both options, once the user is successfully authenticated and the user auth
 
 `<redirect_uri>?geolocation=<token_geolocation>&code=<token>`
 
-*If the user is not successfully authenticated or does not authorize the scopes for your application, an error code and description will be appended to the redirect URI. Please refer to the [Response Codes](#response_codes) section for more information.*
+*If the user is not successfully authenticated or does not authorize the scopes for your application, an error code and description will be appended to the redirect URI. Please refer to the [Response Codes](#response-codes) section for more information.*
 
 Your application must then exchange the temporary token for a long-lived token using the below.
 
@@ -308,7 +319,8 @@ Name | Type | Format | Description
 `code`|`string`| `UUID` | The authorization code provided by Auth
 `grant_type`|`string` |-| `authorization_code`
 
-## <a name="password_grant"></a>Password grant
+### Password Grant
+<!--## <a name="password_grant"></a>Password grant-->
 
 The Password grant can be used when there is a trust relationship between the user and the application. There are two credential types allowed with Password Grant:
 
@@ -375,8 +387,8 @@ example bad login
   "code": 5
 }
 ```
-
-## <a name="client_credentials"></a>Client Credentials grant
+### Client Credentials Grant
+<!--## <a name="client_credentials"></a>Client Credentials grant-->
 
 Use the `application/x-www-form-urlencoded` content type.
 
@@ -425,8 +437,8 @@ Connection: Close
 }
 ```
 
-
-## <a name="otp_grant"></a>One Time Password grant
+### One Time Password Grant
+<!--## <a name="otp_grant"></a>One Time Password grant-->
 
 
 The One-time Password grant type leverages email, phone (text messaging), instant messaging and similar systems to provide per user access tokens to client applications. This grant type requires the following steps:
@@ -562,8 +574,8 @@ Connection: keep-alive
   "geolocation": "https://us.api.concursolutions.com"
 }
 ```
-
-## <a name="response_codes"></a>Response Codes
+### Response Codes
+<!--## <a name="response_codes"></a>Response Codes-->
 
 ##### HTTP Status returned by oauth2
 
@@ -669,7 +681,8 @@ In all cases, the friendly error description should be displayed to the user.
 | 81   | `invalid_request` | bad channel handle                                     |
 | 82   | `invalid_request` | the number of open otp requests has been exceeded      |
 
-## <a name="troubleshooting"></a>Troubleshooting
+### Troubleshooting
+<!--## <a name="troubleshooting"></a>Troubleshooting-->
 
 In order to assist with troubleshooting, SAP Concur responds with a unique correlationId in the response header. The key to look for is `correlationid`. This unique code can be used during troubleshooting as it identifies the API call in the log files. You should record this information in your own API call logs as well so that you can pass this information on to the SAP Concur support team.
 
@@ -684,15 +697,15 @@ Example of the `correlationid` in the response:
 < Connection: keep-alive
 < Concur-Correlationid: 2803b8f8-a42b-43c2-a739-b8768e4759b8
 ```
+### Enterprise Business Applications
+<!--## <a name="enterprise-business-applications"></a>Enterprise Business Applications-->
 
-## <a name="enterprise-business-applications"></a>Enterprise Business Applications
-
-Only the [Password Grant Type](#password_grant) is available for obtaining company-level tokens.
+Only the [Password Grant Type](#password-grant) is available for obtaining company-level tokens.
 
 1. To begin the authentication flow, a Customer's SAP Concur Administrator clicks on the Connect button within the App Center listing and authorizes the partner's app.  This app listing is located within customer's SAP Concur system's App Center tab.
-1. The SAP Concur authorization service will redirect the Admin to the Partner’s Landing Page.  Partners should follow the [App Center UX Guidelines](https://developer.concur.com/manage-apps/go-market-docs/app-center-ux-guidelines-enterprise.html) to create a web page that listens for an HTTP GET request from SAP Concur.
+1. The SAP Concur authorization service will redirect the Admin to the Partner’s Landing Page.  Partners should follow the [App Center UX Guidelines](/manage-apps/go-market-docs/app-center-ux-guidelines-enterprise.html) to create a web page that listens for an HTTP GET request from SAP Concur.
 1. The redirect URI will contain an id, requestToken and userId parameters.  Example: `https://{partner_redirect_URI}?id=8568a4cd-8ffc-49d6-9417-be2d69aa075f&requestToken=5l85ae5a-426f-4d6f-8af4-08648c4b696b&userId=9bdded51-00b8-4f84-8bef-6d3afe727007`
-1. When the Partner application receives the redirect call, the Partner should strip the `id` and `requestToken` values from the URI and use those on a Post request to the SAP Concur Authorization service to obtain the official Oauth2 Access Token and Refresh Token for the customer using the [password grant](https://developer.concur.com/api-reference/authentication/apidoc.html#password_grant). As explained in detail in this [presentation](https://prezi.com/p/lw0qqy51zcmd/), the Partner must have [Data Center Geo Awareness](https://developer.concur.com/api-reference/authentication/apidoc.html#base_uri) related to the token. We currently have 3 Data Centers and the API end points change based on these Data Centers so it is imperative the proper token management is followed.  Otherwise, your app will not make the correct call per Access token.
+1. When the Partner application receives the redirect call, the Partner should strip the `id` and `requestToken` values from the URI and use those on a Post request to the SAP Concur Authorization service to obtain the official Oauth2 Access Token and Refresh Token for the customer using the [password grant](/api-reference/authentication/apidoc.html#password-grant). As explained in detail in this [presentation](https://prezi.com/p/lw0qqy51zcmd/), the Partner must have [Data Center Geo Awareness](/api-reference/authentication/apidoc.html#base-uris--amp--geolocation) related to the token. We currently have 3 Data Centers and the API end points change based on these Data Centers so it is imperative the proper token management is followed.  Otherwise, your app will not make the correct call per Access token.
 1. An access token is valid for only one hour.  The access token should be cached in memory and discarded after use.
 1. After the Admin has successfully completed the login/enrollment process, the Partner should store the following elements with the customer’s profile metadata.
   * `refresh_token`: (36 characters including dashes) Valid for six months from the day and time issued.
