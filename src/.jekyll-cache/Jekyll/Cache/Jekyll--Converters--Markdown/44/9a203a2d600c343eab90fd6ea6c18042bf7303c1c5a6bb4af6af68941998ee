@@ -1,0 +1,6 @@
+I"Õ
+<ul>
+  <li>POST <code class="language-plaintext highlighter-rouge">/expense/attendeetypes</code></li>
+  <li>DELETE <code class="language-plaintext highlighter-rouge">/expense/attendeetypes/{id}</code></li>
+</ul>
+:ET
