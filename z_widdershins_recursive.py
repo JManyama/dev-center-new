@@ -12,13 +12,6 @@ import subprocess
 
 # Dev Center Repo -  Swagger Files for API Explorer
 
-swagger_v3_0 = Path (r"\dev-center-new\tree\main\src\api-explorer\v3-0").listdir()
-
-swagger_v3_1 = Path (r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\api-explorer\v3-1").listdir()
-
-swagger_v3_2 = Path (r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\api-explorer\v3-2").listdir()
-
-swagger_v4_0 = Path (r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\api-explorer\v4-0").listdir()
 
 
 # swagger_v3_0 = Path (r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\api-explorer\v3-0").listdir()
