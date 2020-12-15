@@ -11,9 +11,9 @@ jobs:
           keys:
             - rubygems-v1-{{ checksum "Gemfile.lock" }}
             - rubygems-v1-fallback
-      - run:
-          name: Widdershins
-          command: run ./z_widdershins_recursive.py
+      
+      - run: ./z_widdershins_recursive.py
+          
       - run:
           name: Add Underscore V3.0
           command: ./src/api-explorer/v3-0/z_underscore_v3_0.py
