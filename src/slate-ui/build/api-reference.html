@@ -289,7 +289,7 @@
     <link href="images/favicon-6c906e5b.ico" rel="icon" type="image/ico" />
   </head>
 
-  <body class="index-reference" data-languages="[]">
+  <body class="api-reference" data-languages="[]">
     <a href="#" id="nav-button">
       <span>
         NAV
@@ -297,9 +297,7 @@
       </span>
     </a>
     <div class="toc-wrapper">
-      <a href="/">
       <img src="images/logo-154d5c6d.png" class="logo" alt="" />
-      </a>
         <div class="search">
           <input type="text" class="search" id="input-search" placeholder="Search">
         </div>
@@ -345,7 +343,7 @@
                     
                   </li>
                   <li>
-                    <a href="#budget-v4-fiscal-year" class="toc-h2 toc-link" data-title="Budget v4 - Fiscal Year">Budget v4 - Fiscal Year</a>
+                    <a href="#budget-v4-fiscal-year-2020" class="toc-h2 toc-link" data-title="Budget v4 - Fiscal Year 2020">Budget v4 - Fiscal Year 2020</a>
                     
                   </li>
                   <li>
@@ -843,7 +841,7 @@
 <h3 id='obtaining-an-access-token'>Obtaining an Access Token</h3>
 <!--## <a name="obtain-accessToken"></a>2. Obtaining an Access Token-->
 
-<p>In order for an application to call a SAP Concur API, you need to obtain an <code>accessToken</code> on behalf of either a User, Company or Application. There are multiple ways of obtaining an <code>accessToken</code> through the various grants (<a href="/slate-ui/build/api-reference.html#password-grant">Password</a>, <a href="#authorization-grant">Authorization</a>, <a href="#client-credentials-grant">Client Credentials</a>, <a href="/slate-ui/build/api-reference.html#password-grant">One-time Password</a>) .</p>
+<p>In order for an application to call a SAP Concur API, you need to obtain an <code>accessToken</code> on behalf of either a User, Company or Application. There are multiple ways of obtaining an <code>accessToken</code> through the various grants (<a href="/apidoc.html#password-grant">Password</a>, <a href="/apidoc.html#authorization-grant">Authorization</a>, <a href="/apidoc.html#client-credentials-grant">Client Credentials</a>, <a href="/apidoc.html#one-time-password-grant">One-time Password</a>) .</p>
 
 <p>This section provides a quick start guide for generating an access token. If you are developing an application to be certified for the App Center or as a TripLink supplier, please refer to the <a href="/manage-apps/app-certification.html">certification documentation</a> for the grant types your application must support.</p>
 
@@ -861,7 +859,7 @@
 <span class="nv">client_secret</span><span class="o">=</span>&lt;clientSecret&gt; eg. 35c3bd92-fcb8-405e-a886-47ff3fba5664
 curl <span class="nt">-X</span> POST <span class="nt">-H</span> <span class="s1">'concur-correlationid: nameofapp'</span> <span class="s2">"</span><span class="nv">$oauth2_base</span><span class="s2">/v0/token"</span> <span class="nt">--data</span> <span class="s2">"username=</span><span class="nv">$username</span><span class="s2">&amp;password=</span><span class="nv">$password</span><span class="s2">&amp;grant_type=password&amp;client_secret=</span><span class="nv">$client_secret</span><span class="s2">&amp;client_id=</span><span class="nv">$client_id</span><span class="s2">"</span>
 </code></pre></div>
-<p>Full docs: <a href="/slate-ui/build/api-reference.html#password-grant">Here</a></p>
+<p>Full docs: <a href="https://developer.concur.com/api-reference/authentication/apidoc.html#password_grant">https://developer.concur.com/api-reference/authentication/apidoc.html#password_grant</a></p>
 
 <p>Store the token and geolocation.</p>
 <h3 id='calling-an-api-with-access-token'>Calling an API with Access Token</h3>
@@ -1006,7 +1004,7 @@ https://us.api.concursolutions.com/profile/v1/me
   </span><span class="nl">"userType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Enterprise"</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div>
-<p>Full docs: <a href="/slate-ui/build/api-reference.html#user">Here/</a></p>
+<p>Full docs: <a href="https://developer.concur.com/api-reference/user/">https://developer.concur.com/api-reference/user/</a></p>
 <h3 id='access-token-expiry-and-obtaining-a-fresh-one'>Access Token Expiry and Obtaining a Fresh One</h3>
 <!--### <a name="access-token-expiry"></a>4. Access Token Expiry and Obtaining a Fresh One-->
 
@@ -1015,13 +1013,13 @@ https://us.api.concursolutions.com/profile/v1/me
 <p>Utilizing the <code>geolocation</code> for the token, here&#39;s an example of a cURL call to obtain a new <code>accessToken</code></p>
 <div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="nt">-X</span> POST <span class="s1">'https://us.api.concursolutions.com/oauth2/v0/token'</span> <span class="nt">--data</span> <span class="s2">"client_id=</span><span class="nv">$client_id</span><span class="s2">&amp;client_secret=</span><span class="nv">$client_secret</span><span class="s2">&amp;grant_type=refresh_token&amp;refresh_token=&lt;old refresh token&gt;"</span>
 </code></pre></div>
-<p>Full docs: <a href="/slate-ui/build/api-reference.html#refreshing-a-token">Here</a></p>
+<p>Full docs: <a href="https://developer.concur.com/api-reference/authentication/apidoc.html#refresh_token">https://developer.concur.com/api-reference/authentication/apidoc.html#refresh_token</a></p>
 
 <p>Now that you&#39;ve made your first call, read up more about SAP Concur&#39;s wide ranging APIs and how they can enhance your application or solve your business needs.</p>
 
-<p>ref: <a href="/slate-ui/build/api-reference.html">https://developer.concur.com/api-reference/index.html</a></p>
+<p>ref: <a href="https://developer.concur.com/api-reference/index.html">https://developer.concur.com/api-reference/index.html</a></p>
 <h2 id='authentication-overview'>Authentication Overview</h2><h3 id='special-note-please-read-first'>Special Note (Please Read First)</h3>
-<p>If you are an existing partner with an existing app, please read both the <a href="/slate-ui/build/api-reference.html#migrating-old-tokens-to-new-oauth2-bearer-tokens">Migration to Oauth2 Tokens</a> and <a href="/slate-ui/build/api-reference.html#getting-started">Getting Started</a> documentation first. If you have any questions, please contact your Partner Enablement team representative before proceeding.</p>
+<p>If you are an existing partner with an existing app, please read both the <a href="/api-reference/authentication/migrationguide.html">Migration to Oauth2 Tokens</a> and <a href="/api-reference/authentication/getting-started.html">Getting Started</a> documentation first. If you have any questions, please contact your Partner Enablement team representative before proceeding.</p>
 
 <ul>
 <li><p><a href="#">Overview</a></p>
@@ -1142,7 +1140,7 @@ https://us.api.concursolutions.com/profile/v1/me
 
 <ul>
 <li><a href="#authorization-grant">Authorization grant</a></li>
-<li><a href="#password-grant">Password grant</a></li>
+<li><a href="#password_grant">Password grant</a></li>
 <li><a href="#client-credentials-grant">Client Credentials grant</a></li>
 <li><a href="#one-time-password-grant">One Time Password grant</a></li>
 </ul>
@@ -2164,7 +2162,7 @@ client_id=your-client_id
 <li>To begin the authentication flow, a Customer&#39;s SAP Concur Administrator clicks on the Connect button within the App Center listing and authorizes the partner&#39;s app.  This app listing is located within customer&#39;s SAP Concur system&#39;s App Center tab.</li>
 <li>The SAP Concur authorization service will redirect the Admin to the Partner’s Landing Page.  Partners should follow the <a href="/manage-apps/go-market-docs/app-center-ux-guidelines-enterprise.html">App Center UX Guidelines</a> to create a web page that listens for an HTTP GET request from SAP Concur.</li>
 <li>The redirect URI will contain an id, requestToken and userId parameters.  Example: <code>https://{partner_redirect_URI}?id=8568a4cd-8ffc-49d6-9417-be2d69aa075f&amp;requestToken=5l85ae5a-426f-4d6f-8af4-08648c4b696b&amp;userId=9bdded51-00b8-4f84-8bef-6d3afe727007</code></li>
-<li>When the Partner application receives the redirect call, the Partner should strip the <code>id</code> and <code>requestToken</code> values from the URI and use those on a Post request to the SAP Concur Authorization service to obtain the official Oauth2 Access Token and Refresh Token for the customer using the <a href="/slate-ui/build/api-reference.html#password-grant">password grant</a>. As explained in detail in this <a href="https://prezi.com/p/lw0qqy51zcmd/">presentation</a>, the Partner must have <a href="/api-reference/authentication/apidoc.html#base-uris--amp--geolocation">Data Center Geo Awareness</a> related to the token. We currently have 3 Data Centers and the API end points change based on these Data Centers so it is imperative the proper token management is followed.  Otherwise, your app will not make the correct call per Access token.</li>
+<li>When the Partner application receives the redirect call, the Partner should strip the <code>id</code> and <code>requestToken</code> values from the URI and use those on a Post request to the SAP Concur Authorization service to obtain the official Oauth2 Access Token and Refresh Token for the customer using the <a href="/api-reference/authentication/apidoc.html#password-grant">password grant</a>. As explained in detail in this <a href="https://prezi.com/p/lw0qqy51zcmd/">presentation</a>, the Partner must have <a href="/api-reference/authentication/apidoc.html#base-uris--amp--geolocation">Data Center Geo Awareness</a> related to the token. We currently have 3 Data Centers and the API end points change based on these Data Centers so it is imperative the proper token management is followed.  Otherwise, your app will not make the correct call per Access token.</li>
 <li>An access token is valid for only one hour.  The access token should be cached in memory and discarded after use.</li>
 <li>After the Admin has successfully completed the login/enrollment process, the Partner should store the following elements with the customer’s profile metadata.
 
@@ -3600,7 +3598,7 @@ Summary and detailed balance amounts are also available to read, but may not be 
 <p>SAP Concur clients must purchase Budget in order to use this API.</p>
 <h4 id='access-token-usage'><a name="access-token-usage"></a>Access Token Usage</h4>
 <p>This API supports both company level and user level access tokens. The user needs to have the Budget Administrator role in order to access the API.</p>
-<h2 id='budget-v4-fiscal-year'>Budget v4 - Fiscal Year</h2><h3 id='menu'>Menu</h3>
+<h2 id='budget-v4-fiscal-year-2020'>Budget v4 - Fiscal Year 2020</h2><h3 id='menu'>Menu</h3>
 <ul>
 <li><a href="./getting-started.html">Getting Started</a></li>
 <li><a href="/api-reference/budget/v4.fiscal-year.html">Fiscal Year</a></li>

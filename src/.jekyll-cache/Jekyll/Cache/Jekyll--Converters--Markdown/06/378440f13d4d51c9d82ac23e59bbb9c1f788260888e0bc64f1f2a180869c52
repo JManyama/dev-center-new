@@ -1,9 +1,0 @@
-I"
-<ul>
-  <li>POST <code class="language-plaintext highlighter-rouge">/common/receipts</code></li>
-</ul>
-
-<p><br /></p>
-
-<p>Going forward, please use the <a href="/api-reference/receipts/get-started.html">v4 Receipts</a> for any new development and apps.</p>
-:ET
