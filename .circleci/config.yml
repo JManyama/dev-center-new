@@ -13,31 +13,31 @@ jobs:
             - rubygems-v1-fallback
       - run:
           name: Widdershins
-          command: ./dev_concur/z_widdershins_recursive.py
+          command: ./z_widdershins_recursive.py
       - run:
           name: Add Underscore V3.0
-          command: ./dev_concur/src/api-explorer/v3-0/z_underscore_v3_0.py
+          command: ./src/api-explorer/v3-0/z_underscore_v3_0.py
       - run:
           name: Add Underscore V3.1
-          command: ./dev_concur/src/api-explorer/v3-1/z_underscore_v3_1.py
+          command: ./src/api-explorer/v3-1/z_underscore_v3_1.py
       - run:
           name: Add Underscore V3.2
-          command: ./dev_concur/src/api-explorer/v3-2/z_underscore_v3_2.py
+          command: ./src/api-explorer/v3-2/z_underscore_v3_2.py
       - run:
           name: Add Underscore V4.0
-          command: ./dev_concur/src/api-explorer/v4-0/z_underscore_v4_0.py
+          command: ./src/api-explorer/v4-0/z_underscore_v4_0.py
       - run:
           name: Move From Dev Center To Slate
-          command: ./dev_concur/z_dc_to_slate.py
+          command: ./z_dc_to_slate.py
       - run:
           name: Adjust Tags and Content
-          command: ./dev_concur/src/Slate-API-Explorer-Reference/slate/source/includes/z_update_swagger_tags.py
+          command: ./src/Slate-API-Explorer-Reference/slate/source/includes/z_update_swagger_tags.py
       - run:
           name: Build Fresh Slate Static Files
           command: bundle exec middleman build
       - run:
           name: Move Static Files Back To Dev Center
-          command: ./dev_concur/z_slate-to-dc-file-transfer.py
+          command: ./z_slate-to-dc-file-transfer.py
       - run:
           name: install dependencies
           command: |
