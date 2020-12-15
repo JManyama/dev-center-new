@@ -11,27 +11,30 @@ jobs:
           keys:
             - rubygems-v1-{{ checksum "Gemfile.lock" }}
             - rubygems-v1-fallback
-      
-      - run: python ./z_widdershins_recursive.py
-          
+      - run:
+          name: install python dependencies
+          command: pip install unipath
+      - run:
+          name: Widdershins
+          command: python ./z_widdershins_recursive.py
       - run:
           name: Add Underscore V3.0
-          command: ./src/api-explorer/v3-0/z_underscore_v3_0.py
+          command: python ./src/api-explorer/v3-0/z_underscore_v3_0.py
       - run:
           name: Add Underscore V3.1
-          command: ./src/api-explorer/v3-1/z_underscore_v3_1.py
+          command: python ./src/api-explorer/v3-1/z_underscore_v3_1.py
       - run:
           name: Add Underscore V3.2
-          command: ./src/api-explorer/v3-2/z_underscore_v3_2.py
+          command: python ./src/api-explorer/v3-2/z_underscore_v3_2.py
       - run:
           name: Add Underscore V4.0
-          command: ./src/api-explorer/v4-0/z_underscore_v4_0.py
+          command: python ./src/api-explorer/v4-0/z_underscore_v4_0.py
       - run:
           name: Move From Dev Center To Slate
-          command: ./z_dc_to_slate.py
+          command: python ./z_dc_to_slate.py
       - run:
           name: Adjust Tags and Content
-          command: ./src/Slate-API-Explorer-Reference/slate/source/includes/z_update_swagger_tags.py
+          command: python ./src/Slate-API-Explorer-Reference/slate/source/includes/z_update_swagger_tags.py
       - run:
           name: Build Fresh Slate Static Files
           command: bundle exec middleman build
