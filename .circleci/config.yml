@@ -13,9 +13,6 @@ jobs:
             - rubygems-v1-fallback
       - run:
           name: install python dependencies
-          command: brew install pyenv
-      - run: 
-          name: Install Unipath
           command: pip install unipath 
       - run:
           name: Widdershins
