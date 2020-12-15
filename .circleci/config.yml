@@ -11,9 +11,10 @@ jobs:
           keys:
             - rubygems-v1-{{ checksum "Gemfile.lock" }}
             - rubygems-v1-fallback
-            
+
       - run: sudo apt-get install python-dev
-      - run: pip install unipath
+      - run: sudo apt-get install -y python-pip python-dev 
+      - run: sudo pip install unipath
       - run:
           name: Widdershins
           command: python ./z_widdershins_recursive.py
