@@ -11,6 +11,8 @@ jobs:
           keys:
             - rubygems-v1-{{ checksum "Gemfile.lock" }}
             - rubygems-v1-fallback
+      - run: sudo pip install pipenv
+      - run: pipenv install unipath
       - run:
           name: Widdershins
           command: python ./z_widdershins_recursive.py
