@@ -25,13 +25,14 @@ import subprocess
 
 # All markdown files in the 'includes' folder in Slate portion of the Dev Center repo
 
-to_slate_repo_includes = Path(r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\Slate-API-Explorer-Reference\slate\source\includes")
+#to_slate_repo_includes = Path(r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\Slate-API-Explorer-Reference\slate\source\includes")
 
 
 # Detecting and converting the Swagger files in all sub-folders under the 'api-explorer' folder
 def convertSwaggerToMarkdown():
     cmd = 'For /R C:\\Users\\I860605\\Desktop\\Dev_Center_New\\dev_concur\\src\\api-explorer\\ %G IN (*.json) do widdershins "%G" -o "%G".md'
-    subprocess.run(cmd, shell=True)
+    subprocess.call(cmd, shell=True)
+    #subprocess.run(cmd, shell=True)
       
 
 
