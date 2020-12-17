@@ -278,7 +278,6 @@ html, body {
   z-index: 10;
   background-color: $main-bg;
   min-height: 100%;
-
   padding-bottom: 1px; // prevent margin overflow
 
   // The dark box is what gives the code samples their dark background.
@@ -334,6 +333,8 @@ html, body {
   }
 }
 
+
+
 ////////////////////////////////////////////////////////////////////////////////
 // CONTENT STYLES
 ////////////////////////////////////////////////////////////////////////////////
@@ -349,7 +350,7 @@ html, body {
   &:after {
     content: '';
     display: block;
-    clear: both;
+    clear: both; 
   }
 
   &>h1, &>h2, &>h3, &>h4, &>h5, &>h6, &>p, &>table, &>ul, &>ol, &>aside, &>dl {
@@ -477,8 +478,20 @@ html, body {
       line-height: 1.6;
       code {
         white-space: nowrap;
+        
       }
     }
+
+
+pre.highlight.json.tab-json{
+  height: 10 px;
+  overflow:scroll !important;
+}
+
+.json{
+  overflow:scroll;
+}
+  
 
     th {
       padding: 5px 10px;
@@ -583,6 +596,12 @@ html, body {
 // This is all the stuff that appears in the right half of the page
 
 
+// Scroll bar for code samples
+.content pre {
+  max-height: 150px;
+  overflow-y: auto;
+
+}
 
 .content {
   &>div.highlight {
@@ -592,9 +611,11 @@ html, body {
   pre, blockquote {
     background-color: $code-bg;
     color:#fff;
+    
 
     margin: 0;
     width: $examples-width;
+    height: 100%;
 
     float:right;
     clear:right;
@@ -619,22 +640,24 @@ html, body {
     padding: 2em $main-padding;
   }
 
- // pre, .highlight, .json, .tab-json{
-   // overflow: scroll;
-  //}
+  blockquote, p{
+    margin-top: 30px;
+  }
+
+
+  
 
   blockquote {
     &>p {
       background-color: $code-annotation-bg;
       padding: $code-annotation-padding 2em;
       color: #000;//previously #eee
+      
     }
   }
 }
 
-span .nt{
-  overflow-y:scroll;
-}
+
 
 ////////////////////////////////////////////////////////////////////////////////
 // RESPONSIVE DESIGN
@@ -807,7 +830,11 @@ background-color: #13c557;
 
 }
 
+//PADDING
+h4[id*="get_expense_allocations-id"]{
+  margin-top: 0px;
 
+}
 
 /*Update background color for Deprecated items*/
 p[id*="deprecated_item"] {
@@ -901,7 +928,7 @@ JAVASCRIPT CODE SAMPLES
 
 .highlight .nt{
   color:#000;
-  overflow-y: scroll;
+  
 }
 
 /*The Header, Fetch, Then, and Console.log*/
