@@ -217,6 +217,70 @@ Gets all allocations per entry or report.
       "Type": "string",
       "Value": "string"
     },
+    "Custom2": {
+      "Code": "string",
+      "Label": "string",
+      "ListItemID": "string",
+      "Sequence": 0,
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom3": {
+      "Code": "string",
+      "Label": "string",
+      "ListItemID": "string",
+      "Sequence": 0,
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom4": {
+      "Code": "string",
+      "Label": "string",
+      "ListItemID": "string",
+      "Sequence": 0,
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom5": {
+      "Code": "string",
+      "Label": "string",
+      "ListItemID": "string",
+      "Sequence": 0,
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom6": {
+      "Code": "string",
+      "Label": "string",
+      "ListItemID": "string",
+      "Sequence": 0,
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom7": {
+      "Code": "string",
+      "Label": "string",
+      "ListItemID": "string",
+      "Sequence": 0,
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom8": {
+      "Code": "string",
+      "Label": "string",
+      "ListItemID": "string",
+      "Sequence": 0,
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom9": {
+      "Code": "string",
+      "Label": "string",
+      "ListItemID": "string",
+      "Sequence": 0,
+      "Type": "string",
+      "Value": "string"
+    },
     "Custom10": {
       "Code": "string",
       "Label": "string",
@@ -297,71 +361,7 @@ Gets all allocations per entry or report.
       "Type": "string",
       "Value": "string"
     },
-    "Custom2": {
-      "Code": "string",
-      "Label": "string",
-      "ListItemID": "string",
-      "Sequence": 0,
-      "Type": "string",
-      "Value": "string"
-    },
     "Custom20": {
-      "Code": "string",
-      "Label": "string",
-      "ListItemID": "string",
-      "Sequence": 0,
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom3": {
-      "Code": "string",
-      "Label": "string",
-      "ListItemID": "string",
-      "Sequence": 0,
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom4": {
-      "Code": "string",
-      "Label": "string",
-      "ListItemID": "string",
-      "Sequence": 0,
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom5": {
-      "Code": "string",
-      "Label": "string",
-      "ListItemID": "string",
-      "Sequence": 0,
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom6": {
-      "Code": "string",
-      "Label": "string",
-      "ListItemID": "string",
-      "Sequence": 0,
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom7": {
-      "Code": "string",
-      "Label": "string",
-      "ListItemID": "string",
-      "Sequence": 0,
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom8": {
-      "Code": "string",
-      "Label": "string",
-      "ListItemID": "string",
-      "Sequence": 0,
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom9": {
       "Code": "string",
       "Label": "string",
       "ListItemID": "string",
@@ -394,6 +394,70 @@ Gets all allocations per entry or report.
       <Type>string</Type>
       <Value>string</Value>
     </Custom1>
+    <Custom2>
+      <Code>string</Code>
+      <Label>string</Label>
+      <ListItemID>string</ListItemID>
+      <Sequence>0</Sequence>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom2>
+    <Custom3>
+      <Code>string</Code>
+      <Label>string</Label>
+      <ListItemID>string</ListItemID>
+      <Sequence>0</Sequence>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom3>
+    <Custom4>
+      <Code>string</Code>
+      <Label>string</Label>
+      <ListItemID>string</ListItemID>
+      <Sequence>0</Sequence>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom4>
+    <Custom5>
+      <Code>string</Code>
+      <Label>string</Label>
+      <ListItemID>string</ListItemID>
+      <Sequence>0</Sequence>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom5>
+    <Custom6>
+      <Code>string</Code>
+      <Label>string</Label>
+      <ListItemID>string</ListItemID>
+      <Sequence>0</Sequence>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom6>
+    <Custom7>
+      <Code>string</Code>
+      <Label>string</Label>
+      <ListItemID>string</ListItemID>
+      <Sequence>0</Sequence>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom7>
+    <Custom8>
+      <Code>string</Code>
+      <Label>string</Label>
+      <ListItemID>string</ListItemID>
+      <Sequence>0</Sequence>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom8>
+    <Custom9>
+      <Code>string</Code>
+      <Label>string</Label>
+      <ListItemID>string</ListItemID>
+      <Sequence>0</Sequence>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom9>
     <Custom10>
       <Code>string</Code>
       <Label>string</Label>
@@ -474,14 +538,6 @@ Gets all allocations per entry or report.
       <Type>string</Type>
       <Value>string</Value>
     </Custom19>
-    <Custom2>
-      <Code>string</Code>
-      <Label>string</Label>
-      <ListItemID>string</ListItemID>
-      <Sequence>0</Sequence>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom2>
     <Custom20>
       <Code>string</Code>
       <Label>string</Label>
@@ -490,62 +546,6 @@ Gets all allocations per entry or report.
       <Type>string</Type>
       <Value>string</Value>
     </Custom20>
-    <Custom3>
-      <Code>string</Code>
-      <Label>string</Label>
-      <ListItemID>string</ListItemID>
-      <Sequence>0</Sequence>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom3>
-    <Custom4>
-      <Code>string</Code>
-      <Label>string</Label>
-      <ListItemID>string</ListItemID>
-      <Sequence>0</Sequence>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom4>
-    <Custom5>
-      <Code>string</Code>
-      <Label>string</Label>
-      <ListItemID>string</ListItemID>
-      <Sequence>0</Sequence>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom5>
-    <Custom6>
-      <Code>string</Code>
-      <Label>string</Label>
-      <ListItemID>string</ListItemID>
-      <Sequence>0</Sequence>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom6>
-    <Custom7>
-      <Code>string</Code>
-      <Label>string</Label>
-      <ListItemID>string</ListItemID>
-      <Sequence>0</Sequence>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom7>
-    <Custom8>
-      <Code>string</Code>
-      <Label>string</Label>
-      <ListItemID>string</ListItemID>
-      <Sequence>0</Sequence>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom8>
-    <Custom9>
-      <Code>string</Code>
-      <Label>string</Label>
-      <ListItemID>string</ListItemID>
-      <Sequence>0</Sequence>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom9>
     <EntryID>string</EntryID>
     <ID>string</ID>
     <IsHidden>true</IsHidden>
@@ -742,6 +742,70 @@ Gets the allocation for the supplied ID.
     "Type": "string",
     "Value": "string"
   },
+  "Custom2": {
+    "Code": "string",
+    "Label": "string",
+    "ListItemID": "string",
+    "Sequence": 0,
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom3": {
+    "Code": "string",
+    "Label": "string",
+    "ListItemID": "string",
+    "Sequence": 0,
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom4": {
+    "Code": "string",
+    "Label": "string",
+    "ListItemID": "string",
+    "Sequence": 0,
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom5": {
+    "Code": "string",
+    "Label": "string",
+    "ListItemID": "string",
+    "Sequence": 0,
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom6": {
+    "Code": "string",
+    "Label": "string",
+    "ListItemID": "string",
+    "Sequence": 0,
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom7": {
+    "Code": "string",
+    "Label": "string",
+    "ListItemID": "string",
+    "Sequence": 0,
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom8": {
+    "Code": "string",
+    "Label": "string",
+    "ListItemID": "string",
+    "Sequence": 0,
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom9": {
+    "Code": "string",
+    "Label": "string",
+    "ListItemID": "string",
+    "Sequence": 0,
+    "Type": "string",
+    "Value": "string"
+  },
   "Custom10": {
     "Code": "string",
     "Label": "string",
@@ -822,71 +886,7 @@ Gets the allocation for the supplied ID.
     "Type": "string",
     "Value": "string"
   },
-  "Custom2": {
-    "Code": "string",
-    "Label": "string",
-    "ListItemID": "string",
-    "Sequence": 0,
-    "Type": "string",
-    "Value": "string"
-  },
   "Custom20": {
-    "Code": "string",
-    "Label": "string",
-    "ListItemID": "string",
-    "Sequence": 0,
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom3": {
-    "Code": "string",
-    "Label": "string",
-    "ListItemID": "string",
-    "Sequence": 0,
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom4": {
-    "Code": "string",
-    "Label": "string",
-    "ListItemID": "string",
-    "Sequence": 0,
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom5": {
-    "Code": "string",
-    "Label": "string",
-    "ListItemID": "string",
-    "Sequence": 0,
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom6": {
-    "Code": "string",
-    "Label": "string",
-    "ListItemID": "string",
-    "Sequence": 0,
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom7": {
-    "Code": "string",
-    "Label": "string",
-    "ListItemID": "string",
-    "Sequence": 0,
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom8": {
-    "Code": "string",
-    "Label": "string",
-    "ListItemID": "string",
-    "Sequence": 0,
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom9": {
     "Code": "string",
     "Label": "string",
     "ListItemID": "string",
@@ -916,6 +916,70 @@ Gets the allocation for the supplied ID.
     <Type>string</Type>
     <Value>string</Value>
   </Custom1>
+  <Custom2>
+    <Code>string</Code>
+    <Label>string</Label>
+    <ListItemID>string</ListItemID>
+    <Sequence>0</Sequence>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom2>
+  <Custom3>
+    <Code>string</Code>
+    <Label>string</Label>
+    <ListItemID>string</ListItemID>
+    <Sequence>0</Sequence>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom3>
+  <Custom4>
+    <Code>string</Code>
+    <Label>string</Label>
+    <ListItemID>string</ListItemID>
+    <Sequence>0</Sequence>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom4>
+  <Custom5>
+    <Code>string</Code>
+    <Label>string</Label>
+    <ListItemID>string</ListItemID>
+    <Sequence>0</Sequence>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom5>
+  <Custom6>
+    <Code>string</Code>
+    <Label>string</Label>
+    <ListItemID>string</ListItemID>
+    <Sequence>0</Sequence>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom6>
+  <Custom7>
+    <Code>string</Code>
+    <Label>string</Label>
+    <ListItemID>string</ListItemID>
+    <Sequence>0</Sequence>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom7>
+  <Custom8>
+    <Code>string</Code>
+    <Label>string</Label>
+    <ListItemID>string</ListItemID>
+    <Sequence>0</Sequence>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom8>
+  <Custom9>
+    <Code>string</Code>
+    <Label>string</Label>
+    <ListItemID>string</ListItemID>
+    <Sequence>0</Sequence>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom9>
   <Custom10>
     <Code>string</Code>
     <Label>string</Label>
@@ -996,14 +1060,6 @@ Gets the allocation for the supplied ID.
     <Type>string</Type>
     <Value>string</Value>
   </Custom19>
-  <Custom2>
-    <Code>string</Code>
-    <Label>string</Label>
-    <ListItemID>string</ListItemID>
-    <Sequence>0</Sequence>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom2>
   <Custom20>
     <Code>string</Code>
     <Label>string</Label>
@@ -1012,62 +1068,6 @@ Gets the allocation for the supplied ID.
     <Type>string</Type>
     <Value>string</Value>
   </Custom20>
-  <Custom3>
-    <Code>string</Code>
-    <Label>string</Label>
-    <ListItemID>string</ListItemID>
-    <Sequence>0</Sequence>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom3>
-  <Custom4>
-    <Code>string</Code>
-    <Label>string</Label>
-    <ListItemID>string</ListItemID>
-    <Sequence>0</Sequence>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom4>
-  <Custom5>
-    <Code>string</Code>
-    <Label>string</Label>
-    <ListItemID>string</ListItemID>
-    <Sequence>0</Sequence>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom5>
-  <Custom6>
-    <Code>string</Code>
-    <Label>string</Label>
-    <ListItemID>string</ListItemID>
-    <Sequence>0</Sequence>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom6>
-  <Custom7>
-    <Code>string</Code>
-    <Label>string</Label>
-    <ListItemID>string</ListItemID>
-    <Sequence>0</Sequence>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom7>
-  <Custom8>
-    <Code>string</Code>
-    <Label>string</Label>
-    <ListItemID>string</ListItemID>
-    <Sequence>0</Sequence>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom8>
-  <Custom9>
-    <Code>string</Code>
-    <Label>string</Label>
-    <ListItemID>string</ListItemID>
-    <Sequence>0</Sequence>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom9>
   <EntryID>string</EntryID>
   <ID>string</ID>
   <IsHidden>true</IsHidden>
@@ -1103,6 +1103,70 @@ OAuth2
     "AccountCode1": "string",
     "AccountCode2": "string",
     "Custom1": {
+      "Code": "string",
+      "Label": "string",
+      "ListItemID": "string",
+      "Sequence": 0,
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom2": {
+      "Code": "string",
+      "Label": "string",
+      "ListItemID": "string",
+      "Sequence": 0,
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom3": {
+      "Code": "string",
+      "Label": "string",
+      "ListItemID": "string",
+      "Sequence": 0,
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom4": {
+      "Code": "string",
+      "Label": "string",
+      "ListItemID": "string",
+      "Sequence": 0,
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom5": {
+      "Code": "string",
+      "Label": "string",
+      "ListItemID": "string",
+      "Sequence": 0,
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom6": {
+      "Code": "string",
+      "Label": "string",
+      "ListItemID": "string",
+      "Sequence": 0,
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom7": {
+      "Code": "string",
+      "Label": "string",
+      "ListItemID": "string",
+      "Sequence": 0,
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom8": {
+      "Code": "string",
+      "Label": "string",
+      "ListItemID": "string",
+      "Sequence": 0,
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom9": {
       "Code": "string",
       "Label": "string",
       "ListItemID": "string",
@@ -1190,71 +1254,7 @@ OAuth2
       "Type": "string",
       "Value": "string"
     },
-    "Custom2": {
-      "Code": "string",
-      "Label": "string",
-      "ListItemID": "string",
-      "Sequence": 0,
-      "Type": "string",
-      "Value": "string"
-    },
     "Custom20": {
-      "Code": "string",
-      "Label": "string",
-      "ListItemID": "string",
-      "Sequence": 0,
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom3": {
-      "Code": "string",
-      "Label": "string",
-      "ListItemID": "string",
-      "Sequence": 0,
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom4": {
-      "Code": "string",
-      "Label": "string",
-      "ListItemID": "string",
-      "Sequence": 0,
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom5": {
-      "Code": "string",
-      "Label": "string",
-      "ListItemID": "string",
-      "Sequence": 0,
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom6": {
-      "Code": "string",
-      "Label": "string",
-      "ListItemID": "string",
-      "Sequence": 0,
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom7": {
-      "Code": "string",
-      "Label": "string",
-      "ListItemID": "string",
-      "Sequence": 0,
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom8": {
-      "Code": "string",
-      "Label": "string",
-      "ListItemID": "string",
-      "Sequence": 0,
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom9": {
       "Code": "string",
       "Label": "string",
       "ListItemID": "string",
@@ -1293,6 +1293,70 @@ OAuth2
   "AccountCode1": "string",
   "AccountCode2": "string",
   "Custom1": {
+    "Code": "string",
+    "Label": "string",
+    "ListItemID": "string",
+    "Sequence": 0,
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom2": {
+    "Code": "string",
+    "Label": "string",
+    "ListItemID": "string",
+    "Sequence": 0,
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom3": {
+    "Code": "string",
+    "Label": "string",
+    "ListItemID": "string",
+    "Sequence": 0,
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom4": {
+    "Code": "string",
+    "Label": "string",
+    "ListItemID": "string",
+    "Sequence": 0,
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom5": {
+    "Code": "string",
+    "Label": "string",
+    "ListItemID": "string",
+    "Sequence": 0,
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom6": {
+    "Code": "string",
+    "Label": "string",
+    "ListItemID": "string",
+    "Sequence": 0,
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom7": {
+    "Code": "string",
+    "Label": "string",
+    "ListItemID": "string",
+    "Sequence": 0,
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom8": {
+    "Code": "string",
+    "Label": "string",
+    "ListItemID": "string",
+    "Sequence": 0,
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom9": {
     "Code": "string",
     "Label": "string",
     "ListItemID": "string",
@@ -1380,71 +1444,7 @@ OAuth2
     "Type": "string",
     "Value": "string"
   },
-  "Custom2": {
-    "Code": "string",
-    "Label": "string",
-    "ListItemID": "string",
-    "Sequence": 0,
-    "Type": "string",
-    "Value": "string"
-  },
   "Custom20": {
-    "Code": "string",
-    "Label": "string",
-    "ListItemID": "string",
-    "Sequence": 0,
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom3": {
-    "Code": "string",
-    "Label": "string",
-    "ListItemID": "string",
-    "Sequence": 0,
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom4": {
-    "Code": "string",
-    "Label": "string",
-    "ListItemID": "string",
-    "Sequence": 0,
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom5": {
-    "Code": "string",
-    "Label": "string",
-    "ListItemID": "string",
-    "Sequence": 0,
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom6": {
-    "Code": "string",
-    "Label": "string",
-    "ListItemID": "string",
-    "Sequence": 0,
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom7": {
-    "Code": "string",
-    "Label": "string",
-    "ListItemID": "string",
-    "Sequence": 0,
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom8": {
-    "Code": "string",
-    "Label": "string",
-    "ListItemID": "string",
-    "Sequence": 0,
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom9": {
     "Code": "string",
     "Label": "string",
     "ListItemID": "string",
@@ -1469,6 +1469,14 @@ OAuth2
 |AccountCode1|string|false|none|The primary accounting code assigned to the expense type associated with this allocation. Typically, expense types have only a primary account code.|
 |AccountCode2|string|false|none|The secondary or alternative accounting code assigned to the expense type associated with this allocation.|
 |Custom1|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
+|Custom2|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
+|Custom3|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
+|Custom4|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
+|Custom5|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
+|Custom6|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
+|Custom7|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
+|Custom8|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
+|Custom9|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
 |Custom10|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
 |Custom11|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
 |Custom12|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
@@ -1479,15 +1487,7 @@ OAuth2
 |Custom17|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
 |Custom18|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
 |Custom19|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
-|Custom2|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
 |Custom20|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
-|Custom3|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
-|Custom4|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
-|Custom5|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
-|Custom6|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
-|Custom7|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
-|Custom8|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
-|Custom9|[CustomFieldExtension](#schemacustomfieldextension)|false|none|none|
 |EntryID|string|false|none|The unique identifier for the expense entry.|
 |ID|string|false|none|The unique identifier of the resource.|
 |IsHidden|boolean|false|none|Indicates whether the allocation is hidden. Format: true or false|

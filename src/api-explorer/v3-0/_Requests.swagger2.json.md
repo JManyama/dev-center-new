@@ -354,6 +354,54 @@ Returns a Request by ID.
         "Type": "string",
         "Value": "string"
       },
+      "Custom2": {
+        "Code": "string",
+        "ListItemID": "string",
+        "Type": "string",
+        "Value": "string"
+      },
+      "Custom3": {
+        "Code": "string",
+        "ListItemID": "string",
+        "Type": "string",
+        "Value": "string"
+      },
+      "Custom4": {
+        "Code": "string",
+        "ListItemID": "string",
+        "Type": "string",
+        "Value": "string"
+      },
+      "Custom5": {
+        "Code": "string",
+        "ListItemID": "string",
+        "Type": "string",
+        "Value": "string"
+      },
+      "Custom6": {
+        "Code": "string",
+        "ListItemID": "string",
+        "Type": "string",
+        "Value": "string"
+      },
+      "Custom7": {
+        "Code": "string",
+        "ListItemID": "string",
+        "Type": "string",
+        "Value": "string"
+      },
+      "Custom8": {
+        "Code": "string",
+        "ListItemID": "string",
+        "Type": "string",
+        "Value": "string"
+      },
+      "Custom9": {
+        "Code": "string",
+        "ListItemID": "string",
+        "Type": "string",
+        "Value": "string"
+      },
       "Custom10": {
         "Code": "string",
         "ListItemID": "string",
@@ -414,55 +462,7 @@ Returns a Request by ID.
         "Type": "string",
         "Value": "string"
       },
-      "Custom2": {
-        "Code": "string",
-        "ListItemID": "string",
-        "Type": "string",
-        "Value": "string"
-      },
       "Custom20": {
-        "Code": "string",
-        "ListItemID": "string",
-        "Type": "string",
-        "Value": "string"
-      },
-      "Custom3": {
-        "Code": "string",
-        "ListItemID": "string",
-        "Type": "string",
-        "Value": "string"
-      },
-      "Custom4": {
-        "Code": "string",
-        "ListItemID": "string",
-        "Type": "string",
-        "Value": "string"
-      },
-      "Custom5": {
-        "Code": "string",
-        "ListItemID": "string",
-        "Type": "string",
-        "Value": "string"
-      },
-      "Custom6": {
-        "Code": "string",
-        "ListItemID": "string",
-        "Type": "string",
-        "Value": "string"
-      },
-      "Custom7": {
-        "Code": "string",
-        "ListItemID": "string",
-        "Type": "string",
-        "Value": "string"
-      },
-      "Custom8": {
-        "Code": "string",
-        "ListItemID": "string",
-        "Type": "string",
-        "Value": "string"
-      },
-      "Custom9": {
         "Code": "string",
         "ListItemID": "string",
         "Type": "string",
@@ -1277,6 +1277,54 @@ Returns a Request by ID.
         <Type>string</Type>
         <Value>string</Value>
       </Custom1>
+      <Custom2>
+        <Code>string</Code>
+        <ListItemID>string</ListItemID>
+        <Type>string</Type>
+        <Value>string</Value>
+      </Custom2>
+      <Custom3>
+        <Code>string</Code>
+        <ListItemID>string</ListItemID>
+        <Type>string</Type>
+        <Value>string</Value>
+      </Custom3>
+      <Custom4>
+        <Code>string</Code>
+        <ListItemID>string</ListItemID>
+        <Type>string</Type>
+        <Value>string</Value>
+      </Custom4>
+      <Custom5>
+        <Code>string</Code>
+        <ListItemID>string</ListItemID>
+        <Type>string</Type>
+        <Value>string</Value>
+      </Custom5>
+      <Custom6>
+        <Code>string</Code>
+        <ListItemID>string</ListItemID>
+        <Type>string</Type>
+        <Value>string</Value>
+      </Custom6>
+      <Custom7>
+        <Code>string</Code>
+        <ListItemID>string</ListItemID>
+        <Type>string</Type>
+        <Value>string</Value>
+      </Custom7>
+      <Custom8>
+        <Code>string</Code>
+        <ListItemID>string</ListItemID>
+        <Type>string</Type>
+        <Value>string</Value>
+      </Custom8>
+      <Custom9>
+        <Code>string</Code>
+        <ListItemID>string</ListItemID>
+        <Type>string</Type>
+        <Value>string</Value>
+      </Custom9>
       <Custom10>
         <Code>string</Code>
         <ListItemID>string</ListItemID>
@@ -1337,60 +1385,12 @@ Returns a Request by ID.
         <Type>string</Type>
         <Value>string</Value>
       </Custom19>
-      <Custom2>
-        <Code>string</Code>
-        <ListItemID>string</ListItemID>
-        <Type>string</Type>
-        <Value>string</Value>
-      </Custom2>
       <Custom20>
         <Code>string</Code>
         <ListItemID>string</ListItemID>
         <Type>string</Type>
         <Value>string</Value>
       </Custom20>
-      <Custom3>
-        <Code>string</Code>
-        <ListItemID>string</ListItemID>
-        <Type>string</Type>
-        <Value>string</Value>
-      </Custom3>
-      <Custom4>
-        <Code>string</Code>
-        <ListItemID>string</ListItemID>
-        <Type>string</Type>
-        <Value>string</Value>
-      </Custom4>
-      <Custom5>
-        <Code>string</Code>
-        <ListItemID>string</ListItemID>
-        <Type>string</Type>
-        <Value>string</Value>
-      </Custom5>
-      <Custom6>
-        <Code>string</Code>
-        <ListItemID>string</ListItemID>
-        <Type>string</Type>
-        <Value>string</Value>
-      </Custom6>
-      <Custom7>
-        <Code>string</Code>
-        <ListItemID>string</ListItemID>
-        <Type>string</Type>
-        <Value>string</Value>
-      </Custom7>
-      <Custom8>
-        <Code>string</Code>
-        <ListItemID>string</ListItemID>
-        <Type>string</Type>
-        <Value>string</Value>
-      </Custom8>
-      <Custom9>
-        <Code>string</Code>
-        <ListItemID>string</ListItemID>
-        <Type>string</Type>
-        <Value>string</Value>
-      </Custom9>
       <Percentage>string</Percentage>
     </Allocations>
     <ApprovedAmount>string</ApprovedAmount>
@@ -2460,6 +2460,54 @@ This operation does not require authentication
     "Type": "string",
     "Value": "string"
   },
+  "Custom2": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom3": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom4": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom5": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom6": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom7": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom8": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom9": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
   "Custom10": {
     "Code": "string",
     "ListItemID": "string",
@@ -2520,55 +2568,7 @@ This operation does not require authentication
     "Type": "string",
     "Value": "string"
   },
-  "Custom2": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
   "Custom20": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom3": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom4": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom5": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom6": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom7": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom8": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom9": {
     "Code": "string",
     "ListItemID": "string",
     "Type": "string",
@@ -2584,6 +2584,14 @@ This operation does not require authentication
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
 |Custom1|[CustomField](#schemacustomfield)|false|none|none|
+|Custom2|[CustomField](#schemacustomfield)|false|none|none|
+|Custom3|[CustomField](#schemacustomfield)|false|none|none|
+|Custom4|[CustomField](#schemacustomfield)|false|none|none|
+|Custom5|[CustomField](#schemacustomfield)|false|none|none|
+|Custom6|[CustomField](#schemacustomfield)|false|none|none|
+|Custom7|[CustomField](#schemacustomfield)|false|none|none|
+|Custom8|[CustomField](#schemacustomfield)|false|none|none|
+|Custom9|[CustomField](#schemacustomfield)|false|none|none|
 |Custom10|[CustomField](#schemacustomfield)|false|none|none|
 |Custom11|[CustomField](#schemacustomfield)|false|none|none|
 |Custom12|[CustomField](#schemacustomfield)|false|none|none|
@@ -2594,15 +2602,7 @@ This operation does not require authentication
 |Custom17|[CustomField](#schemacustomfield)|false|none|none|
 |Custom18|[CustomField](#schemacustomfield)|false|none|none|
 |Custom19|[CustomField](#schemacustomfield)|false|none|none|
-|Custom2|[CustomField](#schemacustomfield)|false|none|none|
 |Custom20|[CustomField](#schemacustomfield)|false|none|none|
-|Custom3|[CustomField](#schemacustomfield)|false|none|none|
-|Custom4|[CustomField](#schemacustomfield)|false|none|none|
-|Custom5|[CustomField](#schemacustomfield)|false|none|none|
-|Custom6|[CustomField](#schemacustomfield)|false|none|none|
-|Custom7|[CustomField](#schemacustomfield)|false|none|none|
-|Custom8|[CustomField](#schemacustomfield)|false|none|none|
-|Custom9|[CustomField](#schemacustomfield)|false|none|none|
 |Percentage|string|false|none|The percentage of the expense that is included in this allocation.|
 
 <h2 id="tocS_CashAdvance">CashAdvance</h2>
@@ -2928,6 +2928,54 @@ This operation does not require authentication
         "Type": "string",
         "Value": "string"
       },
+      "Custom2": {
+        "Code": "string",
+        "ListItemID": "string",
+        "Type": "string",
+        "Value": "string"
+      },
+      "Custom3": {
+        "Code": "string",
+        "ListItemID": "string",
+        "Type": "string",
+        "Value": "string"
+      },
+      "Custom4": {
+        "Code": "string",
+        "ListItemID": "string",
+        "Type": "string",
+        "Value": "string"
+      },
+      "Custom5": {
+        "Code": "string",
+        "ListItemID": "string",
+        "Type": "string",
+        "Value": "string"
+      },
+      "Custom6": {
+        "Code": "string",
+        "ListItemID": "string",
+        "Type": "string",
+        "Value": "string"
+      },
+      "Custom7": {
+        "Code": "string",
+        "ListItemID": "string",
+        "Type": "string",
+        "Value": "string"
+      },
+      "Custom8": {
+        "Code": "string",
+        "ListItemID": "string",
+        "Type": "string",
+        "Value": "string"
+      },
+      "Custom9": {
+        "Code": "string",
+        "ListItemID": "string",
+        "Type": "string",
+        "Value": "string"
+      },
       "Custom10": {
         "Code": "string",
         "ListItemID": "string",
@@ -2988,55 +3036,7 @@ This operation does not require authentication
         "Type": "string",
         "Value": "string"
       },
-      "Custom2": {
-        "Code": "string",
-        "ListItemID": "string",
-        "Type": "string",
-        "Value": "string"
-      },
       "Custom20": {
-        "Code": "string",
-        "ListItemID": "string",
-        "Type": "string",
-        "Value": "string"
-      },
-      "Custom3": {
-        "Code": "string",
-        "ListItemID": "string",
-        "Type": "string",
-        "Value": "string"
-      },
-      "Custom4": {
-        "Code": "string",
-        "ListItemID": "string",
-        "Type": "string",
-        "Value": "string"
-      },
-      "Custom5": {
-        "Code": "string",
-        "ListItemID": "string",
-        "Type": "string",
-        "Value": "string"
-      },
-      "Custom6": {
-        "Code": "string",
-        "ListItemID": "string",
-        "Type": "string",
-        "Value": "string"
-      },
-      "Custom7": {
-        "Code": "string",
-        "ListItemID": "string",
-        "Type": "string",
-        "Value": "string"
-      },
-      "Custom8": {
-        "Code": "string",
-        "ListItemID": "string",
-        "Type": "string",
-        "Value": "string"
-      },
-      "Custom9": {
         "Code": "string",
         "ListItemID": "string",
         "Type": "string",
@@ -3801,6 +3801,54 @@ This operation does not require authentication
       "Type": "string",
       "Value": "string"
     },
+    "Custom2": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom3": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom4": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom5": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom6": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom7": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom8": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom9": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
     "Custom10": {
       "Code": "string",
       "ListItemID": "string",
@@ -3861,55 +3909,7 @@ This operation does not require authentication
       "Type": "string",
       "Value": "string"
     },
-    "Custom2": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
     "Custom20": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom3": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom4": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom5": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom6": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom7": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom8": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom9": {
       "Code": "string",
       "ListItemID": "string",
       "Type": "string",

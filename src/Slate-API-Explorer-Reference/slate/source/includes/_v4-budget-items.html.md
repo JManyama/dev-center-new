@@ -38,7 +38,7 @@ This resource is used to retrieve and update information about a budget that spa
   * [Error Message](#errorMessage)
 * [Response Headers](#responseHeaders)
 
-#### <a name="getall"></a>GET All Budget Items
+### <a name="getall"></a>GET All Budget Items
 
 Retrieve all budget items in groups of up to 50 items.  Due to response size and performance considerations, this endpoint does not return `budgetItemDetails`.  Use the [GET a Budget Item](#get) to retrieve all the details for a single budget.
 
@@ -220,7 +220,16 @@ concur-correlationid: dd6cee88-b725-4c06-9ee9-0ca4ae4f16b2
 }
 ```
 
-#### <a name="get"></a>GET a Budget Item
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+### <a name="get"></a>GET a Budget Item
 
 Retrieve the details of a single budget item.
 
@@ -233,13 +242,15 @@ This API call requires one of the following scopes:
 
 ### Request
 
-#### URI
 
-#### Template
+#### URI
 
 ```shell
 GET  /budget/v4/budgetItemHeader/{id}
 ```
+
+#### Template
+
 
 #### Parameters
 
@@ -580,8 +591,12 @@ concur-correlationid: 918cfb55-06a1-47da-8ef1-774a45427af9
     }
   }
 ```
+<br>
+<br>
+<br>
+<br>
 
-#### <a name="post"></a>POST a Budget Item
+### <a name="post"></a>POST a Budget Item
 
 Save a new budget or update an existing budget.
 

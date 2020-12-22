@@ -353,6 +353,30 @@
         "Custom1": {
           "$ref": "#/definitions/CustomField"
         },
+        "Custom2": {
+          "$ref": "#/definitions/CustomField"
+        },
+        "Custom3": {
+          "$ref": "#/definitions/CustomField"
+        },
+        "Custom4": {
+          "$ref": "#/definitions/CustomField"
+        },
+        "Custom5": {
+          "$ref": "#/definitions/CustomField"
+        },
+        "Custom6": {
+          "$ref": "#/definitions/CustomField"
+        },
+        "Custom7": {
+          "$ref": "#/definitions/CustomField"
+        },
+        "Custom8": {
+          "$ref": "#/definitions/CustomField"
+        },
+        "Custom9": {
+          "$ref": "#/definitions/CustomField"
+        },
         "Custom10": {
           "$ref": "#/definitions/CustomField"
         },
@@ -381,9 +405,6 @@
           "$ref": "#/definitions/CustomField"
         },
         "Custom19": {
-          "$ref": "#/definitions/CustomField"
-        },
-        "Custom2": {
           "$ref": "#/definitions/CustomField"
         },
         "Custom20": {
@@ -416,9 +437,6 @@
         "Custom29": {
           "$ref": "#/definitions/CustomField"
         },
-        "Custom3": {
-          "$ref": "#/definitions/CustomField"
-        },
         "Custom30": {
           "$ref": "#/definitions/CustomField"
         },
@@ -449,25 +467,7 @@
         "Custom39": {
           "$ref": "#/definitions/CustomField"
         },
-        "Custom4": {
-          "$ref": "#/definitions/CustomField"
-        },
         "Custom40": {
-          "$ref": "#/definitions/CustomField"
-        },
-        "Custom5": {
-          "$ref": "#/definitions/CustomField"
-        },
-        "Custom6": {
-          "$ref": "#/definitions/CustomField"
-        },
-        "Custom7": {
-          "$ref": "#/definitions/CustomField"
-        },
-        "Custom8": {
-          "$ref": "#/definitions/CustomField"
-        },
-        "Custom9": {
           "$ref": "#/definitions/CustomField"
         },
         "Description": {

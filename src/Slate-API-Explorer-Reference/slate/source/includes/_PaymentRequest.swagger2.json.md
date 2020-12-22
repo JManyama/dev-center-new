@@ -285,6 +285,14 @@ Gets all relevant information (Payment Request Header, Payment Request Line Item
         "Allocation": {
           "AllocationAccountCode": "string",
           "Custom1": "string",
+          "Custom2": "string",
+          "Custom3": "string",
+          "Custom4": "string",
+          "Custom5": "string",
+          "Custom6": "string",
+          "Custom7": "string",
+          "Custom8": "string",
+          "Custom9": "string",
           "Custom10": "string",
           "Custom11": "string",
           "Custom12": "string",
@@ -295,15 +303,7 @@ Gets all relevant information (Payment Request Header, Payment Request Line Item
           "Custom17": "string",
           "Custom18": "string",
           "Custom19": "string",
-          "Custom2": "string",
           "Custom20": "string",
-          "Custom3": "string",
-          "Custom4": "string",
-          "Custom5": "string",
-          "Custom6": "string",
-          "Custom7": "string",
-          "Custom8": "string",
-          "Custom9": "string",
           "IsTestUser": "string",
           "Percentage": "string"
         }
@@ -519,6 +519,14 @@ Gets all relevant information (Payment Request Header, Payment Request Line Item
         <Allocation>
           <AllocationAccountCode>string</AllocationAccountCode>
           <Custom1>string</Custom1>
+          <Custom2>string</Custom2>
+          <Custom3>string</Custom3>
+          <Custom4>string</Custom4>
+          <Custom5>string</Custom5>
+          <Custom6>string</Custom6>
+          <Custom7>string</Custom7>
+          <Custom8>string</Custom8>
+          <Custom9>string</Custom9>
           <Custom10>string</Custom10>
           <Custom11>string</Custom11>
           <Custom12>string</Custom12>
@@ -529,15 +537,7 @@ Gets all relevant information (Payment Request Header, Payment Request Line Item
           <Custom17>string</Custom17>
           <Custom18>string</Custom18>
           <Custom19>string</Custom19>
-          <Custom2>string</Custom2>
           <Custom20>string</Custom20>
-          <Custom3>string</Custom3>
-          <Custom4>string</Custom4>
-          <Custom5>string</Custom5>
-          <Custom6>string</Custom6>
-          <Custom7>string</Custom7>
-          <Custom8>string</Custom8>
-          <Custom9>string</Custom9>
           <IsTestUser>string</IsTestUser>
           <Percentage>string</Percentage>
         </Allocation>
@@ -2029,6 +2029,14 @@ OAuth2
 {
   "AllocationAccountCode": "string",
   "Custom1": "string",
+  "Custom2": "string",
+  "Custom3": "string",
+  "Custom4": "string",
+  "Custom5": "string",
+  "Custom6": "string",
+  "Custom7": "string",
+  "Custom8": "string",
+  "Custom9": "string",
   "Custom10": "string",
   "Custom11": "string",
   "Custom12": "string",
@@ -2039,15 +2047,7 @@ OAuth2
   "Custom17": "string",
   "Custom18": "string",
   "Custom19": "string",
-  "Custom2": "string",
   "Custom20": "string",
-  "Custom3": "string",
-  "Custom4": "string",
-  "Custom5": "string",
-  "Custom6": "string",
-  "Custom7": "string",
-  "Custom8": "string",
-  "Custom9": "string",
   "IsTestUser": "string",
   "Percentage": "string"
 }
@@ -2060,6 +2060,14 @@ OAuth2
 |---|---|---|---|---|
 |AllocationAccountCode|string|false|none|The Account Code that the allocation will be assigned to.|
 |Custom1|string|false|none|The details from the Custom fields. These may not have data, depending on configuration.|
+|Custom2|string|false|none|The details from the Custom fields. These may not have data, depending on configuration.|
+|Custom3|string|false|none|The details from the Custom fields. These may not have data, depending on configuration.|
+|Custom4|string|false|none|The details from the Custom fields. These may not have data, depending on configuration.|
+|Custom5|string|false|none|The details from the Custom fields. These may not have data, depending on configuration.|
+|Custom6|string|false|none|The details from the Custom fields. These may not have data, depending on configuration.|
+|Custom7|string|false|none|The details from the Custom fields. These may not have data, depending on configuration.|
+|Custom8|string|false|none|The details from the Custom fields. These may not have data, depending on configuration.|
+|Custom9|string|false|none|The details from the Custom fields. These may not have data, depending on configuration.|
 |Custom10|string|false|none|The details from the Custom fields. These may not have data, depending on configuration.|
 |Custom11|string|false|none|The details from the Custom fields. These may not have data, depending on configuration.|
 |Custom12|string|false|none|The details from the Custom fields. These may not have data, depending on configuration.|
@@ -2069,16 +2077,8 @@ OAuth2
 |Custom16|string|false|none|The details from the Custom fields. These may not have data, depending on configuration.|
 |Custom17|string|false|none|The details from the Custom fields. These may not have data, depending on configuration.|
 |Custom18|string|false|none|The details from the Custom fields. These may not have data, depending on configuration.|
-|Custom19|string|false|none|The details from the Custom fields. These may not have data, depending on configuration.|
-|Custom2|string|false|none|The details from the Custom fields. These may not have data, depending on configuration.|
-|Custom20|string|false|none|The details from the Custom fields. These may not have data, depending on configuration.|
-|Custom3|string|false|none|The details from the Custom fields. These may not have data, depending on configuration.|
-|Custom4|string|false|none|The details from the Custom fields. These may not have data, depending on configuration.|
-|Custom5|string|false|none|The details from the Custom fields. These may not have data, depending on configuration.|
-|Custom6|string|false|none|The details from the Custom fields. These may not have data, depending on configuration.|
-|Custom7|string|false|none|The details from the Custom fields. These may not have data, depending on configuration.|
-|Custom8|string|false|none|A value that can be applied to a custom field 8 that is part of the allocation form.|
-|Custom9|string|false|none|A value that can be applied to a custom field 9 that is part of the allocation form.|
+|Custom19|string|false|none|A value that can be applied to a custom field 8 that is part of the allocation form.|
+|Custom20|string|false|none|A value that can be applied to a custom field 9 that is part of the allocation form.|
 |IsTestUser|string|false|none|Indication that the Allocation record was created by a test user. Format: true/false.|
 |Percentage|string|false|none|The percentage of the request line item that the individual allocation records. All allocations associated to a given line item should add up to 100.|
 
@@ -2094,6 +2094,14 @@ OAuth2
   "Allocation": {
     "AllocationAccountCode": "string",
     "Custom1": "string",
+    "Custom2": "string",
+    "Custom3": "string",
+    "Custom4": "string",
+    "Custom5": "string",
+    "Custom6": "string",
+    "Custom7": "string",
+    "Custom8": "string",
+    "Custom9": "string",
     "Custom10": "string",
     "Custom11": "string",
     "Custom12": "string",
@@ -2104,15 +2112,7 @@ OAuth2
     "Custom17": "string",
     "Custom18": "string",
     "Custom19": "string",
-    "Custom2": "string",
     "Custom20": "string",
-    "Custom3": "string",
-    "Custom4": "string",
-    "Custom5": "string",
-    "Custom6": "string",
-    "Custom7": "string",
-    "Custom8": "string",
-    "Custom9": "string",
     "IsTestUser": "string",
     "Percentage": "string"
   }
@@ -2195,6 +2195,14 @@ OAuth2
     "Allocation": {
       "AllocationAccountCode": "string",
       "Custom1": "string",
+      "Custom2": "string",
+      "Custom3": "string",
+      "Custom4": "string",
+      "Custom5": "string",
+      "Custom6": "string",
+      "Custom7": "string",
+      "Custom8": "string",
+      "Custom9": "string",
       "Custom10": "string",
       "Custom11": "string",
       "Custom12": "string",
@@ -2205,15 +2213,7 @@ OAuth2
       "Custom17": "string",
       "Custom18": "string",
       "Custom19": "string",
-      "Custom2": "string",
       "Custom20": "string",
-      "Custom3": "string",
-      "Custom4": "string",
-      "Custom5": "string",
-      "Custom6": "string",
-      "Custom7": "string",
-      "Custom8": "string",
-      "Custom9": "string",
       "IsTestUser": "string",
       "Percentage": "string"
     }
@@ -2348,6 +2348,14 @@ OAuth2
       "Allocation": {
         "AllocationAccountCode": "string",
         "Custom1": "string",
+        "Custom2": "string",
+        "Custom3": "string",
+        "Custom4": "string",
+        "Custom5": "string",
+        "Custom6": "string",
+        "Custom7": "string",
+        "Custom8": "string",
+        "Custom9": "string",
         "Custom10": "string",
         "Custom11": "string",
         "Custom12": "string",
@@ -2358,15 +2366,7 @@ OAuth2
         "Custom17": "string",
         "Custom18": "string",
         "Custom19": "string",
-        "Custom2": "string",
         "Custom20": "string",
-        "Custom3": "string",
-        "Custom4": "string",
-        "Custom5": "string",
-        "Custom6": "string",
-        "Custom7": "string",
-        "Custom8": "string",
-        "Custom9": "string",
         "IsTestUser": "string",
         "Percentage": "string"
       }
@@ -2528,6 +2528,14 @@ OAuth2
         "Allocation": {
           "AllocationAccountCode": "string",
           "Custom1": "string",
+          "Custom2": "string",
+          "Custom3": "string",
+          "Custom4": "string",
+          "Custom5": "string",
+          "Custom6": "string",
+          "Custom7": "string",
+          "Custom8": "string",
+          "Custom9": "string",
           "Custom10": "string",
           "Custom11": "string",
           "Custom12": "string",
@@ -2538,15 +2546,7 @@ OAuth2
           "Custom17": "string",
           "Custom18": "string",
           "Custom19": "string",
-          "Custom2": "string",
           "Custom20": "string",
-          "Custom3": "string",
-          "Custom4": "string",
-          "Custom5": "string",
-          "Custom6": "string",
-          "Custom7": "string",
-          "Custom8": "string",
-          "Custom9": "string",
           "IsTestUser": "string",
           "Percentage": "string"
         }

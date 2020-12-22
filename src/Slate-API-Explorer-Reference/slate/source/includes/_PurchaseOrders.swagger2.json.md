@@ -113,6 +113,14 @@ const inputBody = '{
         {
           "Amount": "string",
           "Custom1": "string",
+          "Custom2": "string",
+          "Custom3": "string",
+          "Custom4": "string",
+          "Custom5": "string",
+          "Custom6": "string",
+          "Custom7": "string",
+          "Custom8": "string",
+          "Custom9": "string",
           "Custom10": "string",
           "Custom11": "string",
           "Custom12": "string",
@@ -123,15 +131,7 @@ const inputBody = '{
           "Custom17": "string",
           "Custom18": "string",
           "Custom19": "string",
-          "Custom2": "string",
           "Custom20": "string",
-          "Custom3": "string",
-          "Custom4": "string",
-          "Custom5": "string",
-          "Custom6": "string",
-          "Custom7": "string",
-          "Custom8": "string",
-          "Custom9": "string",
           "GrossAmount": "string",
           "Percentage": "string"
         }
@@ -405,6 +405,14 @@ Creates a purchase order and returns the status of the creation request.
         {
           "Amount": "string",
           "Custom1": "string",
+          "Custom2": "string",
+          "Custom3": "string",
+          "Custom4": "string",
+          "Custom5": "string",
+          "Custom6": "string",
+          "Custom7": "string",
+          "Custom8": "string",
+          "Custom9": "string",
           "Custom10": "string",
           "Custom11": "string",
           "Custom12": "string",
@@ -415,15 +423,7 @@ Creates a purchase order and returns the status of the creation request.
           "Custom17": "string",
           "Custom18": "string",
           "Custom19": "string",
-          "Custom2": "string",
           "Custom20": "string",
-          "Custom3": "string",
-          "Custom4": "string",
-          "Custom5": "string",
-          "Custom6": "string",
-          "Custom7": "string",
-          "Custom8": "string",
-          "Custom9": "string",
           "GrossAmount": "string",
           "Percentage": "string"
         }
@@ -561,6 +561,14 @@ Creates a purchase order and returns the status of the creation request.
     <Allocation>
       <Amount>string</Amount>
       <Custom1>string</Custom1>
+      <Custom2>string</Custom2>
+      <Custom3>string</Custom3>
+      <Custom4>string</Custom4>
+      <Custom5>string</Custom5>
+      <Custom6>string</Custom6>
+      <Custom7>string</Custom7>
+      <Custom8>string</Custom8>
+      <Custom9>string</Custom9>
       <Custom10>string</Custom10>
       <Custom11>string</Custom11>
       <Custom12>string</Custom12>
@@ -571,15 +579,7 @@ Creates a purchase order and returns the status of the creation request.
       <Custom17>string</Custom17>
       <Custom18>string</Custom18>
       <Custom19>string</Custom19>
-      <Custom2>string</Custom2>
       <Custom20>string</Custom20>
-      <Custom3>string</Custom3>
-      <Custom4>string</Custom4>
-      <Custom5>string</Custom5>
-      <Custom6>string</Custom6>
-      <Custom7>string</Custom7>
-      <Custom8>string</Custom8>
-      <Custom9>string</Custom9>
       <GrossAmount>string</GrossAmount>
       <Percentage>string</Percentage>
     </Allocation>
@@ -784,6 +784,14 @@ const inputBody = '{
         {
           "Amount": "string",
           "Custom1": "string",
+          "Custom2": "string",
+          "Custom3": "string",
+          "Custom4": "string",
+          "Custom5": "string",
+          "Custom6": "string",
+          "Custom7": "string",
+          "Custom8": "string",
+          "Custom9": "string",
           "Custom10": "string",
           "Custom11": "string",
           "Custom12": "string",
@@ -794,15 +802,7 @@ const inputBody = '{
           "Custom17": "string",
           "Custom18": "string",
           "Custom19": "string",
-          "Custom2": "string",
           "Custom20": "string",
-          "Custom3": "string",
-          "Custom4": "string",
-          "Custom5": "string",
-          "Custom6": "string",
-          "Custom7": "string",
-          "Custom8": "string",
-          "Custom9": "string",
           "GrossAmount": "string",
           "Percentage": "string"
         }
@@ -1076,6 +1076,14 @@ Updates the specified purchase order and returns the status of the update reques
         {
           "Amount": "string",
           "Custom1": "string",
+          "Custom2": "string",
+          "Custom3": "string",
+          "Custom4": "string",
+          "Custom5": "string",
+          "Custom6": "string",
+          "Custom7": "string",
+          "Custom8": "string",
+          "Custom9": "string",
           "Custom10": "string",
           "Custom11": "string",
           "Custom12": "string",
@@ -1086,15 +1094,7 @@ Updates the specified purchase order and returns the status of the update reques
           "Custom17": "string",
           "Custom18": "string",
           "Custom19": "string",
-          "Custom2": "string",
           "Custom20": "string",
-          "Custom3": "string",
-          "Custom4": "string",
-          "Custom5": "string",
-          "Custom6": "string",
-          "Custom7": "string",
-          "Custom8": "string",
-          "Custom9": "string",
           "GrossAmount": "string",
           "Percentage": "string"
         }
@@ -1232,6 +1232,14 @@ Updates the specified purchase order and returns the status of the update reques
     <Allocation>
       <Amount>string</Amount>
       <Custom1>string</Custom1>
+      <Custom2>string</Custom2>
+      <Custom3>string</Custom3>
+      <Custom4>string</Custom4>
+      <Custom5>string</Custom5>
+      <Custom6>string</Custom6>
+      <Custom7>string</Custom7>
+      <Custom8>string</Custom8>
+      <Custom9>string</Custom9>
       <Custom10>string</Custom10>
       <Custom11>string</Custom11>
       <Custom12>string</Custom12>
@@ -1242,15 +1250,7 @@ Updates the specified purchase order and returns the status of the update reques
       <Custom17>string</Custom17>
       <Custom18>string</Custom18>
       <Custom19>string</Custom19>
-      <Custom2>string</Custom2>
       <Custom20>string</Custom20>
-      <Custom3>string</Custom3>
-      <Custom4>string</Custom4>
-      <Custom5>string</Custom5>
-      <Custom6>string</Custom6>
-      <Custom7>string</Custom7>
-      <Custom8>string</Custom8>
-      <Custom9>string</Custom9>
       <GrossAmount>string</GrossAmount>
       <Percentage>string</Percentage>
     </Allocation>
@@ -1595,6 +1595,14 @@ Retrieves information about the specified purchase order.
         {
           "Amount": "string",
           "Custom1": "string",
+          "Custom2": "string",
+          "Custom3": "string",
+          "Custom4": "string",
+          "Custom5": "string",
+          "Custom6": "string",
+          "Custom7": "string",
+          "Custom8": "string",
+          "Custom9": "string",
           "Custom10": "string",
           "Custom11": "string",
           "Custom12": "string",
@@ -1605,15 +1613,7 @@ Retrieves information about the specified purchase order.
           "Custom17": "string",
           "Custom18": "string",
           "Custom19": "string",
-          "Custom2": "string",
           "Custom20": "string",
-          "Custom3": "string",
-          "Custom4": "string",
-          "Custom5": "string",
-          "Custom6": "string",
-          "Custom7": "string",
-          "Custom8": "string",
-          "Custom9": "string",
           "GrossAmount": "string",
           "Percentage": "string"
         }
@@ -1751,6 +1751,14 @@ Retrieves information about the specified purchase order.
     <Allocation>
       <Amount>string</Amount>
       <Custom1>string</Custom1>
+      <Custom2>string</Custom2>
+      <Custom3>string</Custom3>
+      <Custom4>string</Custom4>
+      <Custom5>string</Custom5>
+      <Custom6>string</Custom6>
+      <Custom7>string</Custom7>
+      <Custom8>string</Custom8>
+      <Custom9>string</Custom9>
       <Custom10>string</Custom10>
       <Custom11>string</Custom11>
       <Custom12>string</Custom12>
@@ -1761,15 +1769,7 @@ Retrieves information about the specified purchase order.
       <Custom17>string</Custom17>
       <Custom18>string</Custom18>
       <Custom19>string</Custom19>
-      <Custom2>string</Custom2>
       <Custom20>string</Custom20>
-      <Custom3>string</Custom3>
-      <Custom4>string</Custom4>
-      <Custom5>string</Custom5>
-      <Custom6>string</Custom6>
-      <Custom7>string</Custom7>
-      <Custom8>string</Custom8>
-      <Custom9>string</Custom9>
       <GrossAmount>string</GrossAmount>
       <Percentage>string</Percentage>
     </Allocation>
@@ -1876,6 +1876,14 @@ OAuth2
 {
   "Amount": "string",
   "Custom1": "string",
+  "Custom2": "string",
+  "Custom3": "string",
+  "Custom4": "string",
+  "Custom5": "string",
+  "Custom6": "string",
+  "Custom7": "string",
+  "Custom8": "string",
+  "Custom9": "string",
   "Custom10": "string",
   "Custom11": "string",
   "Custom12": "string",
@@ -1886,15 +1894,7 @@ OAuth2
   "Custom17": "string",
   "Custom18": "string",
   "Custom19": "string",
-  "Custom2": "string",
   "Custom20": "string",
-  "Custom3": "string",
-  "Custom4": "string",
-  "Custom5": "string",
-  "Custom6": "string",
-  "Custom7": "string",
-  "Custom8": "string",
-  "Custom9": "string",
   "GrossAmount": "string",
   "Percentage": "string"
 }
@@ -1907,25 +1907,25 @@ OAuth2
 |---|---|---|---|---|
 |Amount|string|true|none|Required. The total amount of the allocation.|
 |Custom1|string|false|none|A value that can be applied to a custom field 1 that is part of the allocation form.|
-|Custom10|string|false|none|A value that can be applied to a custom field 10 that is part of the allocation form.|
-|Custom11|string|false|none|A value that can be applied to a custom field 11 that is part of the allocation form.|
-|Custom12|string|false|none|A value that can be applied to a custom field 12 that is part of the allocation form.|
-|Custom13|string|false|none|A value that can be applied to a custom field 13 that is part of the allocation form.|
-|Custom14|string|false|none|A value that can be applied to a custom field 14 that is part of the allocation form.|
-|Custom15|string|false|none|A value that can be applied to a custom field 15 that is part of the allocation form.|
-|Custom16|string|false|none|A value that can be applied to a custom field 16 that is part of the allocation form.|
-|Custom17|string|false|none|A value that can be applied to a custom field 17 that is part of the allocation form.|
-|Custom18|string|false|none|A value that can be applied to a custom field 18 that is part of the allocation form.|
-|Custom19|string|false|none|A value that can be applied to a custom field 19 that is part of the allocation form.|
-|Custom2|string|false|none|A value that can be applied to a custom field 2 that is part of the allocation form.|
-|Custom20|string|false|none|A value that can be applied to a custom field 20 that is part of the allocation form.|
-|Custom3|string|false|none|A value that can be applied to a custom field 3 that is part of the allocation form.|
-|Custom4|string|false|none|A value that can be applied to a custom field 4 that is part of the allocation form.|
-|Custom5|string|false|none|A value that can be applied to a custom field 5 that is part of the allocation form.|
-|Custom6|string|false|none|A value that can be applied to a custom field 6 that is part of the allocation form.|
-|Custom7|string|false|none|A value that can be applied to a custom field 7 that is part of the allocation form.|
-|Custom8|string|false|none|A value that can be applied to a custom field 8 that is part of the allocation form.|
-|Custom9|string|false|none|A value that can be applied to a custom field 9 that is part of the allocation form.|
+|Custom2|string|false|none|A value that can be applied to a custom field 10 that is part of the allocation form.|
+|Custom3|string|false|none|A value that can be applied to a custom field 11 that is part of the allocation form.|
+|Custom4|string|false|none|A value that can be applied to a custom field 12 that is part of the allocation form.|
+|Custom5|string|false|none|A value that can be applied to a custom field 13 that is part of the allocation form.|
+|Custom6|string|false|none|A value that can be applied to a custom field 14 that is part of the allocation form.|
+|Custom7|string|false|none|A value that can be applied to a custom field 15 that is part of the allocation form.|
+|Custom8|string|false|none|A value that can be applied to a custom field 16 that is part of the allocation form.|
+|Custom9|string|false|none|A value that can be applied to a custom field 17 that is part of the allocation form.|
+|Custom10|string|false|none|A value that can be applied to a custom field 18 that is part of the allocation form.|
+|Custom11|string|false|none|A value that can be applied to a custom field 19 that is part of the allocation form.|
+|Custom12|string|false|none|A value that can be applied to a custom field 2 that is part of the allocation form.|
+|Custom13|string|false|none|A value that can be applied to a custom field 20 that is part of the allocation form.|
+|Custom14|string|false|none|A value that can be applied to a custom field 3 that is part of the allocation form.|
+|Custom15|string|false|none|A value that can be applied to a custom field 4 that is part of the allocation form.|
+|Custom16|string|false|none|A value that can be applied to a custom field 5 that is part of the allocation form.|
+|Custom17|string|false|none|A value that can be applied to a custom field 6 that is part of the allocation form.|
+|Custom18|string|false|none|A value that can be applied to a custom field 7 that is part of the allocation form.|
+|Custom19|string|false|none|A value that can be applied to a custom field 8 that is part of the allocation form.|
+|Custom20|string|false|none|A value that can be applied to a custom field 9 that is part of the allocation form.|
 |GrossAmount|string|false|none|Required. The allocation gross amount.|
 |Percentage|string|false|none|Required. The allocation percentage.|
 
@@ -1981,6 +1981,14 @@ OAuth2
     {
       "Amount": "string",
       "Custom1": "string",
+      "Custom2": "string",
+      "Custom3": "string",
+      "Custom4": "string",
+      "Custom5": "string",
+      "Custom6": "string",
+      "Custom7": "string",
+      "Custom8": "string",
+      "Custom9": "string",
       "Custom10": "string",
       "Custom11": "string",
       "Custom12": "string",
@@ -1991,15 +1999,7 @@ OAuth2
       "Custom17": "string",
       "Custom18": "string",
       "Custom19": "string",
-      "Custom2": "string",
       "Custom20": "string",
-      "Custom3": "string",
-      "Custom4": "string",
-      "Custom5": "string",
-      "Custom6": "string",
-      "Custom7": "string",
-      "Custom8": "string",
-      "Custom9": "string",
       "GrossAmount": "string",
       "Percentage": "string"
     }
@@ -2150,6 +2150,14 @@ OAuth2
         {
           "Amount": "string",
           "Custom1": "string",
+          "Custom2": "string",
+          "Custom3": "string",
+          "Custom4": "string",
+          "Custom5": "string",
+          "Custom6": "string",
+          "Custom7": "string",
+          "Custom8": "string",
+          "Custom9": "string",
           "Custom10": "string",
           "Custom11": "string",
           "Custom12": "string",
@@ -2160,15 +2168,7 @@ OAuth2
           "Custom17": "string",
           "Custom18": "string",
           "Custom19": "string",
-          "Custom2": "string",
           "Custom20": "string",
-          "Custom3": "string",
-          "Custom4": "string",
-          "Custom5": "string",
-          "Custom6": "string",
-          "Custom7": "string",
-          "Custom8": "string",
-          "Custom9": "string",
           "GrossAmount": "string",
           "Percentage": "string"
         }

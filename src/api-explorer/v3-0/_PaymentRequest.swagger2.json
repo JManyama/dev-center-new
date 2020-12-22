@@ -143,6 +143,38 @@
           "type": "string",
           "description": "The details from the Custom fields. These may not have data, depending on configuration."
         },
+        "Custom2": {
+          "type": "string",
+          "description": "The details from the Custom fields. These may not have data, depending on configuration."
+        },
+        "Custom3": {
+          "type": "string",
+          "description": "The details from the Custom fields. These may not have data, depending on configuration."
+        },
+        "Custom4": {
+          "type": "string",
+          "description": "The details from the Custom fields. These may not have data, depending on configuration."
+        },
+        "Custom5": {
+          "type": "string",
+          "description": "The details from the Custom fields. These may not have data, depending on configuration."
+        },
+        "Custom6": {
+          "type": "string",
+          "description": "The details from the Custom fields. These may not have data, depending on configuration."
+        },
+        "Custom7": {
+          "type": "string",
+          "description": "The details from the Custom fields. These may not have data, depending on configuration."
+        },
+        "Custom8": {
+          "type": "string",
+          "description": "The details from the Custom fields. These may not have data, depending on configuration."
+        },
+        "Custom9": {
+          "type": "string",
+          "description": "The details from the Custom fields. These may not have data, depending on configuration."
+        },
         "Custom10": {
           "type": "string",
           "description": "The details from the Custom fields. These may not have data, depending on configuration."
@@ -181,41 +213,9 @@
         },
         "Custom19": {
           "type": "string",
-          "description": "The details from the Custom fields. These may not have data, depending on configuration."
-        },
-        "Custom2": {
-          "type": "string",
-          "description": "The details from the Custom fields. These may not have data, depending on configuration."
-        },
-        "Custom20": {
-          "type": "string",
-          "description": "The details from the Custom fields. These may not have data, depending on configuration."
-        },
-        "Custom3": {
-          "type": "string",
-          "description": "The details from the Custom fields. These may not have data, depending on configuration."
-        },
-        "Custom4": {
-          "type": "string",
-          "description": "The details from the Custom fields. These may not have data, depending on configuration."
-        },
-        "Custom5": {
-          "type": "string",
-          "description": "The details from the Custom fields. These may not have data, depending on configuration."
-        },
-        "Custom6": {
-          "type": "string",
-          "description": "The details from the Custom fields. These may not have data, depending on configuration."
-        },
-        "Custom7": {
-          "type": "string",
-          "description": "The details from the Custom fields. These may not have data, depending on configuration."
-        },
-        "Custom8": {
-          "type": "string",
           "description": "A value that can be applied to a custom field 8 that is part of the allocation form."
         },
-        "Custom9": {
+        "Custom20": {
           "type": "string",
           "description": "A value that can be applied to a custom field 9 that is part of the allocation form."
         },

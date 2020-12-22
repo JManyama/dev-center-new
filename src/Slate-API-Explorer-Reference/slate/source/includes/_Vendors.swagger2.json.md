@@ -242,6 +242,14 @@ Gets an existing vendor. Note: If authenticating with a Company access token the
     "CountryCode": "string",
     "CurrencyCode": "string",
     "Custom1": "string",
+    "Custom2": "string",
+    "Custom3": "string",
+    "Custom4": "string",
+    "Custom5": "string",
+    "Custom6": "string",
+    "Custom7": "string",
+    "Custom8": "string",
+    "Custom9": "string",
     "Custom10": "string",
     "Custom11": "string",
     "Custom12": "string",
@@ -252,15 +260,7 @@ Gets an existing vendor. Note: If authenticating with a Company access token the
     "Custom17": "string",
     "Custom18": "string",
     "Custom19": "string",
-    "Custom2": "string",
     "Custom20": "string",
-    "Custom3": "string",
-    "Custom4": "string",
-    "Custom5": "string",
-    "Custom6": "string",
-    "Custom7": "string",
-    "Custom8": "string",
-    "Custom9": "string",
     "DefaultEmployeeID": "string",
     "DefaultExpenseTypeName": "string",
     "DiscountPercentage": "string",
@@ -347,6 +347,14 @@ Gets an existing vendor. Note: If authenticating with a Company access token the
     <CountryCode>string</CountryCode>
     <CurrencyCode>string</CurrencyCode>
     <Custom1>string</Custom1>
+    <Custom2>string</Custom2>
+    <Custom3>string</Custom3>
+    <Custom4>string</Custom4>
+    <Custom5>string</Custom5>
+    <Custom6>string</Custom6>
+    <Custom7>string</Custom7>
+    <Custom8>string</Custom8>
+    <Custom9>string</Custom9>
     <Custom10>string</Custom10>
     <Custom11>string</Custom11>
     <Custom12>string</Custom12>
@@ -357,15 +365,7 @@ Gets an existing vendor. Note: If authenticating with a Company access token the
     <Custom17>string</Custom17>
     <Custom18>string</Custom18>
     <Custom19>string</Custom19>
-    <Custom2>string</Custom2>
     <Custom20>string</Custom20>
-    <Custom3>string</Custom3>
-    <Custom4>string</Custom4>
-    <Custom5>string</Custom5>
-    <Custom6>string</Custom6>
-    <Custom7>string</Custom7>
-    <Custom8>string</Custom8>
-    <Custom9>string</Custom9>
     <DefaultEmployeeID>string</DefaultEmployeeID>
     <DefaultExpenseTypeName>string</DefaultExpenseTypeName>
     <DiscountPercentage>string</DiscountPercentage>
@@ -479,6 +479,14 @@ const inputBody = '{
     "CountryCode": "string",
     "CurrencyCode": "string",
     "Custom1": "string",
+    "Custom2": "string",
+    "Custom3": "string",
+    "Custom4": "string",
+    "Custom5": "string",
+    "Custom6": "string",
+    "Custom7": "string",
+    "Custom8": "string",
+    "Custom9": "string",
     "Custom10": "string",
     "Custom11": "string",
     "Custom12": "string",
@@ -489,15 +497,7 @@ const inputBody = '{
     "Custom17": "string",
     "Custom18": "string",
     "Custom19": "string",
-    "Custom2": "string",
     "Custom20": "string",
-    "Custom3": "string",
-    "Custom4": "string",
-    "Custom5": "string",
-    "Custom6": "string",
-    "Custom7": "string",
-    "Custom8": "string",
-    "Custom9": "string",
     "DefaultEmployeeID": "string",
     "DefaultExpenseTypeName": "string",
     "DiscountPercentage": "string",
@@ -713,6 +713,14 @@ Creates a new vendor and returns the status of creation.
     "CountryCode": "string",
     "CurrencyCode": "string",
     "Custom1": "string",
+    "Custom2": "string",
+    "Custom3": "string",
+    "Custom4": "string",
+    "Custom5": "string",
+    "Custom6": "string",
+    "Custom7": "string",
+    "Custom8": "string",
+    "Custom9": "string",
     "Custom10": "string",
     "Custom11": "string",
     "Custom12": "string",
@@ -723,15 +731,7 @@ Creates a new vendor and returns the status of creation.
     "Custom17": "string",
     "Custom18": "string",
     "Custom19": "string",
-    "Custom2": "string",
     "Custom20": "string",
-    "Custom3": "string",
-    "Custom4": "string",
-    "Custom5": "string",
-    "Custom6": "string",
-    "Custom7": "string",
-    "Custom8": "string",
-    "Custom9": "string",
     "DefaultEmployeeID": "string",
     "DefaultExpenseTypeName": "string",
     "DiscountPercentage": "string",
@@ -818,6 +818,14 @@ Creates a new vendor and returns the status of creation.
     <CountryCode>string</CountryCode>
     <CurrencyCode>string</CurrencyCode>
     <Custom1>string</Custom1>
+    <Custom2>string</Custom2>
+    <Custom3>string</Custom3>
+    <Custom4>string</Custom4>
+    <Custom5>string</Custom5>
+    <Custom6>string</Custom6>
+    <Custom7>string</Custom7>
+    <Custom8>string</Custom8>
+    <Custom9>string</Custom9>
     <Custom10>string</Custom10>
     <Custom11>string</Custom11>
     <Custom12>string</Custom12>
@@ -828,15 +836,7 @@ Creates a new vendor and returns the status of creation.
     <Custom17>string</Custom17>
     <Custom18>string</Custom18>
     <Custom19>string</Custom19>
-    <Custom2>string</Custom2>
     <Custom20>string</Custom20>
-    <Custom3>string</Custom3>
-    <Custom4>string</Custom4>
-    <Custom5>string</Custom5>
-    <Custom6>string</Custom6>
-    <Custom7>string</Custom7>
-    <Custom8>string</Custom8>
-    <Custom9>string</Custom9>
     <DefaultEmployeeID>string</DefaultEmployeeID>
     <DefaultExpenseTypeName>string</DefaultExpenseTypeName>
     <DiscountPercentage>string</DiscountPercentage>
@@ -930,6 +930,14 @@ Creates a new vendor and returns the status of creation.
     "CountryCode": "string",
     "CurrencyCode": "string",
     "Custom1": "string",
+    "Custom2": "string",
+    "Custom3": "string",
+    "Custom4": "string",
+    "Custom5": "string",
+    "Custom6": "string",
+    "Custom7": "string",
+    "Custom8": "string",
+    "Custom9": "string",
     "Custom10": "string",
     "Custom11": "string",
     "Custom12": "string",
@@ -940,15 +948,7 @@ Creates a new vendor and returns the status of creation.
     "Custom17": "string",
     "Custom18": "string",
     "Custom19": "string",
-    "Custom2": "string",
     "Custom20": "string",
-    "Custom3": "string",
-    "Custom4": "string",
-    "Custom5": "string",
-    "Custom6": "string",
-    "Custom7": "string",
-    "Custom8": "string",
-    "Custom9": "string",
     "DefaultEmployeeID": "string",
     "DefaultExpenseTypeName": "string",
     "DiscountPercentage": "string",
@@ -1035,6 +1035,14 @@ Creates a new vendor and returns the status of creation.
     <CountryCode>string</CountryCode>
     <CurrencyCode>string</CurrencyCode>
     <Custom1>string</Custom1>
+    <Custom2>string</Custom2>
+    <Custom3>string</Custom3>
+    <Custom4>string</Custom4>
+    <Custom5>string</Custom5>
+    <Custom6>string</Custom6>
+    <Custom7>string</Custom7>
+    <Custom8>string</Custom8>
+    <Custom9>string</Custom9>
     <Custom10>string</Custom10>
     <Custom11>string</Custom11>
     <Custom12>string</Custom12>
@@ -1045,15 +1053,7 @@ Creates a new vendor and returns the status of creation.
     <Custom17>string</Custom17>
     <Custom18>string</Custom18>
     <Custom19>string</Custom19>
-    <Custom2>string</Custom2>
     <Custom20>string</Custom20>
-    <Custom3>string</Custom3>
-    <Custom4>string</Custom4>
-    <Custom5>string</Custom5>
-    <Custom6>string</Custom6>
-    <Custom7>string</Custom7>
-    <Custom8>string</Custom8>
-    <Custom9>string</Custom9>
     <DefaultEmployeeID>string</DefaultEmployeeID>
     <DefaultExpenseTypeName>string</DefaultExpenseTypeName>
     <DiscountPercentage>string</DiscountPercentage>
@@ -1167,6 +1167,14 @@ const inputBody = '{
     "CountryCode": "string",
     "CurrencyCode": "string",
     "Custom1": "string",
+    "Custom2": "string",
+    "Custom3": "string",
+    "Custom4": "string",
+    "Custom5": "string",
+    "Custom6": "string",
+    "Custom7": "string",
+    "Custom8": "string",
+    "Custom9": "string",
     "Custom10": "string",
     "Custom11": "string",
     "Custom12": "string",
@@ -1177,15 +1185,7 @@ const inputBody = '{
     "Custom17": "string",
     "Custom18": "string",
     "Custom19": "string",
-    "Custom2": "string",
     "Custom20": "string",
-    "Custom3": "string",
-    "Custom4": "string",
-    "Custom5": "string",
-    "Custom6": "string",
-    "Custom7": "string",
-    "Custom8": "string",
-    "Custom9": "string",
     "DefaultEmployeeID": "string",
     "DefaultExpenseTypeName": "string",
     "DiscountPercentage": "string",
@@ -1401,6 +1401,14 @@ Updates existing vendors and returns the update status.
     "CountryCode": "string",
     "CurrencyCode": "string",
     "Custom1": "string",
+    "Custom2": "string",
+    "Custom3": "string",
+    "Custom4": "string",
+    "Custom5": "string",
+    "Custom6": "string",
+    "Custom7": "string",
+    "Custom8": "string",
+    "Custom9": "string",
     "Custom10": "string",
     "Custom11": "string",
     "Custom12": "string",
@@ -1411,15 +1419,7 @@ Updates existing vendors and returns the update status.
     "Custom17": "string",
     "Custom18": "string",
     "Custom19": "string",
-    "Custom2": "string",
     "Custom20": "string",
-    "Custom3": "string",
-    "Custom4": "string",
-    "Custom5": "string",
-    "Custom6": "string",
-    "Custom7": "string",
-    "Custom8": "string",
-    "Custom9": "string",
     "DefaultEmployeeID": "string",
     "DefaultExpenseTypeName": "string",
     "DiscountPercentage": "string",
@@ -1506,6 +1506,14 @@ Updates existing vendors and returns the update status.
     <CountryCode>string</CountryCode>
     <CurrencyCode>string</CurrencyCode>
     <Custom1>string</Custom1>
+    <Custom2>string</Custom2>
+    <Custom3>string</Custom3>
+    <Custom4>string</Custom4>
+    <Custom5>string</Custom5>
+    <Custom6>string</Custom6>
+    <Custom7>string</Custom7>
+    <Custom8>string</Custom8>
+    <Custom9>string</Custom9>
     <Custom10>string</Custom10>
     <Custom11>string</Custom11>
     <Custom12>string</Custom12>
@@ -1516,15 +1524,7 @@ Updates existing vendors and returns the update status.
     <Custom17>string</Custom17>
     <Custom18>string</Custom18>
     <Custom19>string</Custom19>
-    <Custom2>string</Custom2>
     <Custom20>string</Custom20>
-    <Custom3>string</Custom3>
-    <Custom4>string</Custom4>
-    <Custom5>string</Custom5>
-    <Custom6>string</Custom6>
-    <Custom7>string</Custom7>
-    <Custom8>string</Custom8>
-    <Custom9>string</Custom9>
     <DefaultEmployeeID>string</DefaultEmployeeID>
     <DefaultExpenseTypeName>string</DefaultExpenseTypeName>
     <DiscountPercentage>string</DiscountPercentage>
@@ -1618,6 +1618,14 @@ Updates existing vendors and returns the update status.
     "CountryCode": "string",
     "CurrencyCode": "string",
     "Custom1": "string",
+    "Custom2": "string",
+    "Custom3": "string",
+    "Custom4": "string",
+    "Custom5": "string",
+    "Custom6": "string",
+    "Custom7": "string",
+    "Custom8": "string",
+    "Custom9": "string",
     "Custom10": "string",
     "Custom11": "string",
     "Custom12": "string",
@@ -1628,15 +1636,7 @@ Updates existing vendors and returns the update status.
     "Custom17": "string",
     "Custom18": "string",
     "Custom19": "string",
-    "Custom2": "string",
     "Custom20": "string",
-    "Custom3": "string",
-    "Custom4": "string",
-    "Custom5": "string",
-    "Custom6": "string",
-    "Custom7": "string",
-    "Custom8": "string",
-    "Custom9": "string",
     "DefaultEmployeeID": "string",
     "DefaultExpenseTypeName": "string",
     "DiscountPercentage": "string",
@@ -1723,6 +1723,14 @@ Updates existing vendors and returns the update status.
     <CountryCode>string</CountryCode>
     <CurrencyCode>string</CurrencyCode>
     <Custom1>string</Custom1>
+    <Custom2>string</Custom2>
+    <Custom3>string</Custom3>
+    <Custom4>string</Custom4>
+    <Custom5>string</Custom5>
+    <Custom6>string</Custom6>
+    <Custom7>string</Custom7>
+    <Custom8>string</Custom8>
+    <Custom9>string</Custom9>
     <Custom10>string</Custom10>
     <Custom11>string</Custom11>
     <Custom12>string</Custom12>
@@ -1733,15 +1741,7 @@ Updates existing vendors and returns the update status.
     <Custom17>string</Custom17>
     <Custom18>string</Custom18>
     <Custom19>string</Custom19>
-    <Custom2>string</Custom2>
     <Custom20>string</Custom20>
-    <Custom3>string</Custom3>
-    <Custom4>string</Custom4>
-    <Custom5>string</Custom5>
-    <Custom6>string</Custom6>
-    <Custom7>string</Custom7>
-    <Custom8>string</Custom8>
-    <Custom9>string</Custom9>
     <DefaultEmployeeID>string</DefaultEmployeeID>
     <DefaultExpenseTypeName>string</DefaultExpenseTypeName>
     <DiscountPercentage>string</DiscountPercentage>
@@ -1995,6 +1995,14 @@ Deletes a vendor by Vendor Code and Address Code.
     "CountryCode": "string",
     "CurrencyCode": "string",
     "Custom1": "string",
+    "Custom2": "string",
+    "Custom3": "string",
+    "Custom4": "string",
+    "Custom5": "string",
+    "Custom6": "string",
+    "Custom7": "string",
+    "Custom8": "string",
+    "Custom9": "string",
     "Custom10": "string",
     "Custom11": "string",
     "Custom12": "string",
@@ -2005,15 +2013,7 @@ Deletes a vendor by Vendor Code and Address Code.
     "Custom17": "string",
     "Custom18": "string",
     "Custom19": "string",
-    "Custom2": "string",
     "Custom20": "string",
-    "Custom3": "string",
-    "Custom4": "string",
-    "Custom5": "string",
-    "Custom6": "string",
-    "Custom7": "string",
-    "Custom8": "string",
-    "Custom9": "string",
     "DefaultEmployeeID": "string",
     "DefaultExpenseTypeName": "string",
     "DiscountPercentage": "string",
@@ -2100,6 +2100,14 @@ Deletes a vendor by Vendor Code and Address Code.
     <CountryCode>string</CountryCode>
     <CurrencyCode>string</CurrencyCode>
     <Custom1>string</Custom1>
+    <Custom2>string</Custom2>
+    <Custom3>string</Custom3>
+    <Custom4>string</Custom4>
+    <Custom5>string</Custom5>
+    <Custom6>string</Custom6>
+    <Custom7>string</Custom7>
+    <Custom8>string</Custom8>
+    <Custom9>string</Custom9>
     <Custom10>string</Custom10>
     <Custom11>string</Custom11>
     <Custom12>string</Custom12>
@@ -2110,15 +2118,7 @@ Deletes a vendor by Vendor Code and Address Code.
     <Custom17>string</Custom17>
     <Custom18>string</Custom18>
     <Custom19>string</Custom19>
-    <Custom2>string</Custom2>
     <Custom20>string</Custom20>
-    <Custom3>string</Custom3>
-    <Custom4>string</Custom4>
-    <Custom5>string</Custom5>
-    <Custom6>string</Custom6>
-    <Custom7>string</Custom7>
-    <Custom8>string</Custom8>
-    <Custom9>string</Custom9>
     <DefaultEmployeeID>string</DefaultEmployeeID>
     <DefaultExpenseTypeName>string</DefaultExpenseTypeName>
     <DiscountPercentage>string</DiscountPercentage>
@@ -2246,6 +2246,14 @@ This operation does not require authentication
   "CountryCode": "string",
   "CurrencyCode": "string",
   "Custom1": "string",
+  "Custom2": "string",
+  "Custom3": "string",
+  "Custom4": "string",
+  "Custom5": "string",
+  "Custom6": "string",
+  "Custom7": "string",
+  "Custom8": "string",
+  "Custom9": "string",
   "Custom10": "string",
   "Custom11": "string",
   "Custom12": "string",
@@ -2256,15 +2264,7 @@ This operation does not require authentication
   "Custom17": "string",
   "Custom18": "string",
   "Custom19": "string",
-  "Custom2": "string",
   "Custom20": "string",
-  "Custom3": "string",
-  "Custom4": "string",
-  "Custom5": "string",
-  "Custom6": "string",
-  "Custom7": "string",
-  "Custom8": "string",
-  "Custom9": "string",
   "DefaultEmployeeID": "string",
   "DefaultExpenseTypeName": "string",
   "DiscountPercentage": "string",
@@ -2347,25 +2347,25 @@ This operation does not require authentication
 |CountryCode|string|false|none|The Vendor Country Code.|
 |CurrencyCode|string|false|none|The Vendor Currency Code.|
 |Custom1|string|false|none|A value that can be applied to a custom field 1 that is part of the vendor form.|
-|Custom10|string|false|none|A value that can be applied to a custom field 10 that is part of the vendor form.|
-|Custom11|string|false|none|A value that can be applied to a custom field 11 that is part of the vendor form.|
-|Custom12|string|false|none|A value that can be applied to a custom field 12 that is part of the vendor form.|
-|Custom13|string|false|none|A value that can be applied to a custom field 13 that is part of the vendor form.|
-|Custom14|string|false|none|A value that can be applied to a custom field 14 that is part of the vendor form.|
-|Custom15|string|false|none|A value that can be applied to a custom field 15 that is part of the vendor form.|
-|Custom16|string|false|none|A value that can be applied to a custom field 16 that is part of the vendor form.|
-|Custom17|string|false|none|A value that can be applied to a custom field 17 that is part of the vendor form.|
-|Custom18|string|false|none|A value that can be applied to a custom field 18 that is part of the vendor form.|
-|Custom19|string|false|none|A value that can be applied to a custom field 19 that is part of the vendor form.|
-|Custom2|string|false|none|A value that can be applied to a custom field 2 that is part of the vendor form.|
-|Custom20|string|false|none|A value that can be applied to a custom field 20 that is part of the vendor form.|
-|Custom3|string|false|none|A value that can be applied to a custom field 3 that is part of the vendor form.|
-|Custom4|string|false|none|A value that can be applied to a custom field 4 that is part of the vendor form.|
-|Custom5|string|false|none|A value that can be applied to a custom field 5 that is part of the vendor form.|
-|Custom6|string|false|none|A value that can be applied to a custom field 6 that is part of the vendor form.|
-|Custom7|string|false|none|A value that can be applied to a custom field 7 that is part of the vendor form.|
-|Custom8|string|false|none|A value that can be applied to a custom field 8 that is part of the vendor form.|
-|Custom9|string|false|none|A value that can be applied to a custom field 9 that is part of the vendor form.|
+|Custom2|string|false|none|A value that can be applied to a custom field 10 that is part of the vendor form.|
+|Custom3|string|false|none|A value that can be applied to a custom field 11 that is part of the vendor form.|
+|Custom4|string|false|none|A value that can be applied to a custom field 12 that is part of the vendor form.|
+|Custom5|string|false|none|A value that can be applied to a custom field 13 that is part of the vendor form.|
+|Custom6|string|false|none|A value that can be applied to a custom field 14 that is part of the vendor form.|
+|Custom7|string|false|none|A value that can be applied to a custom field 15 that is part of the vendor form.|
+|Custom8|string|false|none|A value that can be applied to a custom field 16 that is part of the vendor form.|
+|Custom9|string|false|none|A value that can be applied to a custom field 17 that is part of the vendor form.|
+|Custom10|string|false|none|A value that can be applied to a custom field 18 that is part of the vendor form.|
+|Custom11|string|false|none|A value that can be applied to a custom field 19 that is part of the vendor form.|
+|Custom12|string|false|none|A value that can be applied to a custom field 2 that is part of the vendor form.|
+|Custom13|string|false|none|A value that can be applied to a custom field 20 that is part of the vendor form.|
+|Custom14|string|false|none|A value that can be applied to a custom field 3 that is part of the vendor form.|
+|Custom15|string|false|none|A value that can be applied to a custom field 4 that is part of the vendor form.|
+|Custom16|string|false|none|A value that can be applied to a custom field 5 that is part of the vendor form.|
+|Custom17|string|false|none|A value that can be applied to a custom field 6 that is part of the vendor form.|
+|Custom18|string|false|none|A value that can be applied to a custom field 7 that is part of the vendor form.|
+|Custom19|string|false|none|A value that can be applied to a custom field 8 that is part of the vendor form.|
+|Custom20|string|false|none|A value that can be applied to a custom field 9 that is part of the vendor form.|
 |DefaultEmployeeID|string|false|none|The Default Employee ID of the employee connected to the vendor.|
 |DefaultExpenseTypeName|string|false|none|The Default Expense Type tied to the vendor.|
 |DiscountPercentage|string|false|none|The Discount Percentage.|
@@ -2478,6 +2478,14 @@ This operation does not require authentication
     "CountryCode": "string",
     "CurrencyCode": "string",
     "Custom1": "string",
+    "Custom2": "string",
+    "Custom3": "string",
+    "Custom4": "string",
+    "Custom5": "string",
+    "Custom6": "string",
+    "Custom7": "string",
+    "Custom8": "string",
+    "Custom9": "string",
     "Custom10": "string",
     "Custom11": "string",
     "Custom12": "string",
@@ -2488,15 +2496,7 @@ This operation does not require authentication
     "Custom17": "string",
     "Custom18": "string",
     "Custom19": "string",
-    "Custom2": "string",
     "Custom20": "string",
-    "Custom3": "string",
-    "Custom4": "string",
-    "Custom5": "string",
-    "Custom6": "string",
-    "Custom7": "string",
-    "Custom8": "string",
-    "Custom9": "string",
     "DefaultEmployeeID": "string",
     "DefaultExpenseTypeName": "string",
     "DiscountPercentage": "string",

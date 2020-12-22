@@ -3,7 +3,7 @@
   "info": {
     "description": "SAP Concur partners with external payment providers for processing invoice payments. These payment providers are listed on the App Center and can integrate with the Invoice product by using the Invoice Pay APIs. Payment providers can get a list of all the payments authorized to be processed by them, and send back status of those payments.",
     "version": "4.0",
-    "title": "Invoice Payment Service API Documentation"
+    "title": "Invoice Pay"
   },
   "host": "www.concursolutions.com",
   "basePath": "/",
@@ -114,7 +114,7 @@
           "maxLength": 3
         }
       },
-      "title": "amount"
+      "title": ""
     },
     "invoice": {
       "type": "object",
@@ -138,7 +138,7 @@
           "$ref": "#/definitions/amount"
         }
       },
-      "title": "invoice"
+      "title": ""
     },
     "payment": {
       "type": "object",
@@ -169,7 +169,7 @@
           "$ref": "#/definitions/vendor"
         }
       },
-      "title": "payment"
+      "title": ""
     },
     "readPaymentResult": {
       "type": "object",
@@ -181,7 +181,7 @@
           }
         }
       },
-      "title": "readPaymentResult"
+      "title": ""
     },
     "updatePayment": {
       "type": "object",
@@ -257,7 +257,7 @@
           "description": "Check number if the payment was done via check or trace number for ACH payments. Maximum 255 characters."
         }
       },
-      "title": "updatePayment"
+      "title": ""
     },
     "updatePaymentResult": {
       "type": "object",
@@ -343,7 +343,7 @@
           "description": "Check number if the payment was done via check or trace number for ACH payments. Maximum 255 characters."
         }
       },
-      "title": "updatePaymentResult"
+      "title": ""
     },
     "vendor": {
       "type": "object",
@@ -413,7 +413,7 @@
           "description": "Vendor Name. Maximum 255 characters."
         }
       },
-      "title": "vendor"
+      "title": ""
     }
   }
 }

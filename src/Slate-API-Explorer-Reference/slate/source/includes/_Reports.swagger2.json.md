@@ -251,6 +251,54 @@ Returns all reports owned by the user based on the search criteria.
       "Type": "string",
       "Value": "string"
     },
+    "Custom2": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom3": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom4": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom5": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom6": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom7": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom8": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom9": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
     "Custom10": {
       "Code": "string",
       "ListItemID": "string",
@@ -311,55 +359,7 @@ Returns all reports owned by the user based on the search criteria.
       "Type": "string",
       "Value": "string"
     },
-    "Custom2": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
     "Custom20": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom3": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom4": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom5": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom6": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom7": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom8": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom9": {
       "Code": "string",
       "ListItemID": "string",
       "Type": "string",
@@ -449,6 +449,54 @@ Returns all reports owned by the user based on the search criteria.
       <Type>string</Type>
       <Value>string</Value>
     </Custom1>
+    <Custom2>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom2>
+    <Custom3>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom3>
+    <Custom4>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom4>
+    <Custom5>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom5>
+    <Custom6>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom6>
+    <Custom7>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom7>
+    <Custom8>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom8>
+    <Custom9>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom9>
     <Custom10>
       <Code>string</Code>
       <ListItemID>string</ListItemID>
@@ -509,60 +557,12 @@ Returns all reports owned by the user based on the search criteria.
       <Type>string</Type>
       <Value>string</Value>
     </Custom19>
-    <Custom2>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom2>
     <Custom20>
       <Code>string</Code>
       <ListItemID>string</ListItemID>
       <Type>string</Type>
       <Value>string</Value>
     </Custom20>
-    <Custom3>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom3>
-    <Custom4>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom4>
-    <Custom5>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom5>
-    <Custom6>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom6>
-    <Custom7>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom7>
-    <Custom8>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom8>
-    <Custom9>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom9>
     <EverSentBack>true</EverSentBack>
     <HasException>true</HasException>
     <ID>string</ID>
@@ -1121,6 +1121,54 @@ Returns the specified report.
     "Type": "string",
     "Value": "string"
   },
+  "Custom2": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom3": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom4": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom5": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom6": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom7": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom8": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom9": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
   "Custom10": {
     "Code": "string",
     "ListItemID": "string",
@@ -1181,55 +1229,7 @@ Returns the specified report.
     "Type": "string",
     "Value": "string"
   },
-  "Custom2": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
   "Custom20": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom3": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom4": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom5": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom6": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom7": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom8": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom9": {
     "Code": "string",
     "ListItemID": "string",
     "Type": "string",
@@ -1316,6 +1316,54 @@ Returns the specified report.
     <Type>string</Type>
     <Value>string</Value>
   </Custom1>
+  <Custom2>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom2>
+  <Custom3>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom3>
+  <Custom4>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom4>
+  <Custom5>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom5>
+  <Custom6>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom6>
+  <Custom7>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom7>
+  <Custom8>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom8>
+  <Custom9>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom9>
   <Custom10>
     <Code>string</Code>
     <ListItemID>string</ListItemID>
@@ -1376,60 +1424,12 @@ Returns the specified report.
     <Type>string</Type>
     <Value>string</Value>
   </Custom19>
-  <Custom2>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom2>
   <Custom20>
     <Code>string</Code>
     <ListItemID>string</ListItemID>
     <Type>string</Type>
     <Value>string</Value>
   </Custom20>
-  <Custom3>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom3>
-  <Custom4>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom4>
-  <Custom5>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom5>
-  <Custom6>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom6>
-  <Custom7>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom7>
-  <Custom8>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom8>
-  <Custom9>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom9>
   <EverSentBack>true</EverSentBack>
   <HasException>true</HasException>
   <ID>string</ID>
@@ -1877,6 +1877,54 @@ OAuth2
       "Type": "string",
       "Value": "string"
     },
+    "Custom2": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom3": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom4": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom5": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom6": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom7": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom8": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom9": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
     "Custom10": {
       "Code": "string",
       "ListItemID": "string",
@@ -1937,55 +1985,7 @@ OAuth2
       "Type": "string",
       "Value": "string"
     },
-    "Custom2": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
     "Custom20": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom3": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom4": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom5": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom6": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom7": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom8": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom9": {
       "Code": "string",
       "ListItemID": "string",
       "Type": "string",
@@ -2088,6 +2088,54 @@ OAuth2
     "Type": "string",
     "Value": "string"
   },
+  "Custom2": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom3": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom4": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom5": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom6": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom7": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom8": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom9": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
   "Custom10": {
     "Code": "string",
     "ListItemID": "string",
@@ -2148,55 +2196,7 @@ OAuth2
     "Type": "string",
     "Value": "string"
   },
-  "Custom2": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
   "Custom20": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom3": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom4": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom5": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom6": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom7": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom8": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom9": {
     "Code": "string",
     "ListItemID": "string",
     "Type": "string",
@@ -2280,6 +2280,14 @@ OAuth2
 |CreateDate|string(date-time)|false|none|The date the report was created.|
 |CurrencyCode|string|false|none|The 3-letter ISO 4217 currency code for the expense report currency. Examples: USD - US dollars; BRL - Brazilian real; CAD - Canadian dollar; CHF - Swiss franc; EUR - Euro; GBO - Pound sterling; HKD - Hong Kong dollar; INR - Indian rupee; MXN - Mexican peso; NOK - Norwegian krone; SEK - Swedish krona.|
 |Custom1|[CustomField](#schemacustomfield)|false|none|none|
+|Custom2|[CustomField](#schemacustomfield)|false|none|none|
+|Custom3|[CustomField](#schemacustomfield)|false|none|none|
+|Custom4|[CustomField](#schemacustomfield)|false|none|none|
+|Custom5|[CustomField](#schemacustomfield)|false|none|none|
+|Custom6|[CustomField](#schemacustomfield)|false|none|none|
+|Custom7|[CustomField](#schemacustomfield)|false|none|none|
+|Custom8|[CustomField](#schemacustomfield)|false|none|none|
+|Custom9|[CustomField](#schemacustomfield)|false|none|none|
 |Custom10|[CustomField](#schemacustomfield)|false|none|none|
 |Custom11|[CustomField](#schemacustomfield)|false|none|none|
 |Custom12|[CustomField](#schemacustomfield)|false|none|none|
@@ -2290,15 +2298,7 @@ OAuth2
 |Custom17|[CustomField](#schemacustomfield)|false|none|none|
 |Custom18|[CustomField](#schemacustomfield)|false|none|none|
 |Custom19|[CustomField](#schemacustomfield)|false|none|none|
-|Custom2|[CustomField](#schemacustomfield)|false|none|none|
 |Custom20|[CustomField](#schemacustomfield)|false|none|none|
-|Custom3|[CustomField](#schemacustomfield)|false|none|none|
-|Custom4|[CustomField](#schemacustomfield)|false|none|none|
-|Custom5|[CustomField](#schemacustomfield)|false|none|none|
-|Custom6|[CustomField](#schemacustomfield)|false|none|none|
-|Custom7|[CustomField](#schemacustomfield)|false|none|none|
-|Custom8|[CustomField](#schemacustomfield)|false|none|none|
-|Custom9|[CustomField](#schemacustomfield)|false|none|none|
 |EverSentBack|boolean|false|none|Whether the report has ever been sent back to the employee. Format: Y/N|
 |HasException|boolean|false|none|Whether the report has exceptions. Format: Y/N|
 |ID|string|false|none|The unique identifier of the resource.|

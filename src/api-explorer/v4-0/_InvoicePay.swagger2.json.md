@@ -1,5 +1,5 @@
 ---
-title: Invoice Payment Service API Documentation v4.0
+title: Invoice Pay v4.0
 language_tabs:
   - shell: Shell
   - http: HTTP
@@ -18,7 +18,7 @@ generator: widdershins v4.0.1
 
 ---
 
-<h1 id="invoice-payment-service-api-documentation">Invoice Payment Service API Documentation v4.0</h1>
+<h1 id="invoice-pay">Invoice Pay v4.0</h1>
 
 > Scroll down for code samples, example requests and responses. Select a language for code samples from the tabs above or the mobile navigation menu.
 
@@ -28,7 +28,7 @@ Base URLs:
 
 * <a href="//www.concursolutions.com/">//www.concursolutions.com/</a>
 
-<h1 id="invoice-payment-service-api-documentation-resources">Resources</h1>
+<h1 id="invoice-pay-resources">Resources</h1>
 
  
 
@@ -491,8 +491,6 @@ This operation does not require authentication
 
 ```
 
-amount
-
 ### Properties
 
 |Name|Type|Required|Restrictions|Description|
@@ -523,8 +521,6 @@ amount
 }
 
 ```
-
-invoice
 
 ### Properties
 
@@ -588,8 +584,6 @@ invoice
 }
 
 ```
-
-payment
 
 ### Properties
 
@@ -659,8 +653,6 @@ payment
 
 ```
 
-readPaymentResult
-
 ### Properties
 
 |Name|Type|Required|Restrictions|Description|
@@ -692,8 +684,6 @@ readPaymentResult
 }
 
 ```
-
-updatePayment
 
 ### Properties
 
@@ -761,8 +751,6 @@ updatePayment
 }
 
 ```
-
-updatePaymentResult
 
 ### Properties
 
@@ -833,8 +821,6 @@ updatePaymentResult
 }
 
 ```
-
-vendor
 
 ### Properties
 

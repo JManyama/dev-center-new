@@ -2,8 +2,8 @@
   "swagger": "2.0",
   "info": {
     "description": "The Budget service exposes budget and fiscal year data. Partners and clients may use the service endpoints to read and alter fiscal year, budget, budget adjustment, and budget matching configuration. Summary and detailed balance amounts are also available to read, but may not be altered via the API.",
-    "version": "4.0.0",
-    "title": "Budget Service API Documentation"
+    "version": "4.0",
+    "title": "Budget"
   },
   "host": "www.concursolutions.com",
   "basePath": "/",
@@ -26,7 +26,7 @@
     },
     {
       "name": "Fiscal Year",
-      "description": "Fiscal Year"
+      "description": ""
     }
   ],
   "paths": {
@@ -881,7 +881,7 @@
           "description": "The transaction date of adjusted spend. Required when the adjustment is made for amount type SPENT_AMOUNT or PENDING_AMOUNT"
         }
       },
-      "title": "BudgetAdjustmentsExternal"
+      "title": ""
     },
     "BudgetAmount": {
       "type": "object",
@@ -925,7 +925,7 @@
           "description": "The unexpensed settings is used to decided to show unexpensed balance or not. **READ ONLY**"
         }
       },
-      "title": "BudgetAmount"
+      "title": ""
     },
     "BudgetCategory": {
       "type": "object",
@@ -967,7 +967,7 @@
           "description": "The unique identifier for the budget category."
         }
       },
-      "title": "BudgetCategory"
+      "title": ""
     },
     "BudgetItemBalance": {
       "type": "object",
@@ -1030,7 +1030,7 @@
           ]
         }
       },
-      "title": "BudgetItemBalance"
+      "title": ""
     },
     "BudgetItemDetail": {
       "type": "object",
@@ -1101,7 +1101,7 @@
           "description": "The unique identifier for this budget item detail"
         }
       },
-      "title": "BudgetItemDetail"
+      "title": ""
     },
     "BudgetItemHeader": {
       "type": "object",
@@ -1248,7 +1248,7 @@
           "type": "boolean"
         }
       },
-      "title": "BudgetItemHeader"
+      "title": ""
     },
     "BudgetItemHeaderResponse": {
       "type": "object",
@@ -1260,7 +1260,7 @@
           "type": "boolean"
         }
       },
-      "title": "BudgetItemHeaderResponse"
+      "title": ""
     },
     "BudgetPerson": {
       "type": "object",
@@ -1302,7 +1302,7 @@
           "description": "The budget service's unique identifier for this user."
         }
       },
-      "title": "BudgetPerson"
+      "title": ""
     },
     "CostObjectField": {
       "type": "object",
@@ -1333,7 +1333,7 @@
           "type": "string"
         }
       },
-      "title": "CostObjectField"
+      "title": ""
     },
     "DateRange": {
       "type": "object",
@@ -1349,7 +1349,7 @@
           "description": "The start date for the budget."
         }
       },
-      "title": "DateRange"
+      "title": ""
     },
     "DetailDashboardBudgetItemAdjustment": {
       "type": "object",
@@ -1408,7 +1408,7 @@
           "description": "The transaction date of adjusted spend. Required when the adjustment is made for amount type SPENT_AMOUNT or PENDING_AMOUNT"
         }
       },
-      "title": "DetailDashboardBudgetItemAdjustment"
+      "title": ""
     },
     "ExpenseType": {
       "type": "object",
@@ -1445,7 +1445,7 @@
           "description": "The unique idenifier for the expense type"
         }
       },
-      "title": "ExpenseType"
+      "title": ""
     },
     "FiscalPeriod": {
       "type": "object",
@@ -1514,7 +1514,7 @@
           "description": "The unique identifier for the fiscal period."
         }
       },
-      "title": "FiscalPeriod"
+      "title": ""
     },
     "FiscalYear": {
       "type": "object",
@@ -1607,7 +1607,7 @@
           }
         }
       },
-      "title": "FiscalYear"
+      "title": ""
     },
     "HierarchyValue": {
       "type": "object",
@@ -1646,7 +1646,7 @@
           "type": "string"
         }
       },
-      "title": "HierarchyValue"
+      "title": ""
     },
     "Href": {
       "type": "object",
@@ -1656,7 +1656,7 @@
           "description": "The fully qualified url"
         }
       },
-      "title": "Href"
+      "title": ""
     },
     "PagedBudgetItemHeaderResult": {
       "type": "object",
@@ -1698,7 +1698,7 @@
           "description": "Total number of records"
         }
       },
-      "title": "PagedBudgetItemHeaderResult"
+      "title": ""
     }
   }
 }

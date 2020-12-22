@@ -372,7 +372,7 @@ html, body {
     @extend %header-font;
     font-size: 25px;//previously 16px
     margin-top: 0.5em;
-    margin-bottom: 0;
+    margin-bottom: -53px;//previously 0- updated to make sure Schema subtitles and Properties are visible without having to scroll up.
     padding-top: 1.2em;
     padding-bottom: 1.2em;
     background-image: linear-gradient(to bottom, rgba(#fff, 0.2), rgba(#fff, 0));
@@ -381,7 +381,7 @@ html, body {
   h4 {
     @extend %header-font;
     font-size: 19px;//previously 13px
-    margin-top: 0.5em;
+    margin-top: 30px;//previously 0.5em
     margin-bottom: 0;
     padding-top: 1.2em;
     padding-bottom: 1.2em;
@@ -471,7 +471,9 @@ html, body {
 
   table {
     margin-bottom: 1em;
+    margin-top: 25px;
     overflow: auto;
+    
     th,td {
       text-align: left;
       vertical-align: top;
@@ -483,14 +485,6 @@ html, body {
     }
 
 
-pre.highlight.json.tab-json{
-  height: 10 px;
-  overflow:scroll !important;
-}
-
-.json{
-  overflow:scroll;
-}
   
 
     th {
@@ -598,7 +592,7 @@ pre.highlight.json.tab-json{
 
 // Scroll bar for code samples
 .content pre {
-  max-height: 175px;
+  max-height: 110px;//originally at 175px
   overflow-y: auto;
 
 }
@@ -639,13 +633,21 @@ pre.highlight.json.tab-json{
     padding-bottom: 2em;
     padding: 2em $main-padding;
   }
-
-  blockquote, p{
-    margin-bottom: 0px;
+ // This will move Code Sample and Example Response orange blocks up/down 
+  blockquote{
+    margin-top: 0px;
   }
 
-
-  
+  // Put small space in between JSON and XML Example Response code samples, since their using a scrollbar.
+  pre.highlight.json.tab-json{
+    margin-bottom: 5px;
+  }
+ // Put small space between the Code Sample and Body Parameter blocks for the POST reqeusts.
+  .highlight{
+    margin-bottom:10px;
+    
+  }
+    
 
   blockquote {
     &>p {
@@ -736,6 +738,7 @@ pre.highlight.json.tab-json{
   opacity: 0.8;
 }
 
+
 /*DEVELOPER.CONCUR THEME
 /*If h4 Header Tag contains GET,POST,PUT or DELETE, update background color accordingly*/
 
@@ -743,11 +746,13 @@ h4[id*="get__"] {
   /*background-color: #0F6AB4;*/
   background-color: #158ff3
   
+  
 }
 
 h4[id*="get_"] {
   /*background-color: #0F6AB4;*/
   background-color: #158ff3
+  
   
 }
 
@@ -830,17 +835,13 @@ background-color: #13c557;
 
 }
 
-//PADDING
-h4[id*="get_expense_allocations-id"]{
-  margin-top: 0px;
-
-}
 
 /*Update background color for Deprecated items*/
 p[id*="deprecated_item"] {
 background-color: #F2DEDE;
 
 }
+
 
 
 /*'String portion of Response and HTTP title*/
@@ -1008,8 +1009,16 @@ JAVA CODE
   }
   
 
+#custom-size {
+  max-height:110px;
 
+}
 
+// Scroll bar for middle section
+.content table{
+  max-height: 600px;//originally at 175px
+  overflow-y: auto;
+}
 
 
 

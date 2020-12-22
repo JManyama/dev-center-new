@@ -216,6 +216,54 @@ Gets all attendees owned by the specified user, or the user associated with the 
       "Type": "string",
       "Value": "string"
     },
+    "Custom2": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom3": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom4": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom5": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom6": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom7": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom8": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom9": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
     "Custom10": {
       "Code": "string",
       "ListItemID": "string",
@@ -276,12 +324,6 @@ Gets all attendees owned by the specified user, or the user associated with the 
       "Type": "string",
       "Value": "string"
     },
-    "Custom2": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
     "Custom20": {
       "Code": "string",
       "ListItemID": "string",
@@ -313,48 +355,6 @@ Gets all attendees owned by the specified user, or the user associated with the 
       "Value": "string"
     },
     "Custom25": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom3": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom4": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom5": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom6": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom7": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom8": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom9": {
       "Code": "string",
       "ListItemID": "string",
       "Type": "string",
@@ -394,6 +394,54 @@ Gets all attendees owned by the specified user, or the user associated with the 
       <Type>string</Type>
       <Value>string</Value>
     </Custom1>
+    <Custom2>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom2>
+    <Custom3>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom3>
+    <Custom4>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom4>
+    <Custom5>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom5>
+    <Custom6>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom6>
+    <Custom7>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom7>
+    <Custom8>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom8>
+    <Custom9>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom9>
     <Custom10>
       <Code>string</Code>
       <ListItemID>string</ListItemID>
@@ -454,12 +502,6 @@ Gets all attendees owned by the specified user, or the user associated with the 
       <Type>string</Type>
       <Value>string</Value>
     </Custom19>
-    <Custom2>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom2>
     <Custom20>
       <Code>string</Code>
       <ListItemID>string</ListItemID>
@@ -496,48 +538,6 @@ Gets all attendees owned by the specified user, or the user associated with the 
       <Type>string</Type>
       <Value>string</Value>
     </Custom25>
-    <Custom3>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom3>
-    <Custom4>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom4>
-    <Custom5>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom5>
-    <Custom6>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom6>
-    <Custom7>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom7>
-    <Custom8>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom8>
-    <Custom9>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom9>
     <ExternalID>string</ExternalID>
     <FirstName>string</FirstName>
     <HasExceptionsPrevYear>true</HasExceptionsPrevYear>
@@ -1058,6 +1058,54 @@ Gets a single attendee by ID.
     "Type": "string",
     "Value": "string"
   },
+  "Custom2": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom3": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom4": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom5": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom6": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom7": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom8": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom9": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
   "Custom10": {
     "Code": "string",
     "ListItemID": "string",
@@ -1118,12 +1166,6 @@ Gets a single attendee by ID.
     "Type": "string",
     "Value": "string"
   },
-  "Custom2": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
   "Custom20": {
     "Code": "string",
     "ListItemID": "string",
@@ -1160,48 +1202,6 @@ Gets a single attendee by ID.
     "Type": "string",
     "Value": "string"
   },
-  "Custom3": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom4": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom5": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom6": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom7": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom8": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom9": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
   "ExternalID": "string",
   "FirstName": "string",
   "HasExceptionsPrevYear": true,
@@ -1233,6 +1233,54 @@ Gets a single attendee by ID.
     <Type>string</Type>
     <Value>string</Value>
   </Custom1>
+  <Custom2>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom2>
+  <Custom3>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom3>
+  <Custom4>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom4>
+  <Custom5>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom5>
+  <Custom6>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom6>
+  <Custom7>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom7>
+  <Custom8>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom8>
+  <Custom9>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom9>
   <Custom10>
     <Code>string</Code>
     <ListItemID>string</ListItemID>
@@ -1293,12 +1341,6 @@ Gets a single attendee by ID.
     <Type>string</Type>
     <Value>string</Value>
   </Custom19>
-  <Custom2>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom2>
   <Custom20>
     <Code>string</Code>
     <ListItemID>string</ListItemID>
@@ -1335,48 +1377,6 @@ Gets a single attendee by ID.
     <Type>string</Type>
     <Value>string</Value>
   </Custom25>
-  <Custom3>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom3>
-  <Custom4>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom4>
-  <Custom5>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom5>
-  <Custom6>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom6>
-  <Custom7>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom7>
-  <Custom8>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom8>
-  <Custom9>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom9>
   <ExternalID>string</ExternalID>
   <FirstName>string</FirstName>
   <HasExceptionsPrevYear>true</HasExceptionsPrevYear>
@@ -1921,6 +1921,54 @@ OAuth2
       "Type": "string",
       "Value": "string"
     },
+    "Custom2": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom3": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom4": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom5": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom6": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom7": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom8": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom9": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
     "Custom10": {
       "Code": "string",
       "ListItemID": "string",
@@ -1981,12 +2029,6 @@ OAuth2
       "Type": "string",
       "Value": "string"
     },
-    "Custom2": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
     "Custom20": {
       "Code": "string",
       "ListItemID": "string",
@@ -2018,48 +2060,6 @@ OAuth2
       "Value": "string"
     },
     "Custom25": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom3": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom4": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom5": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom6": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom7": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom8": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom9": {
       "Code": "string",
       "ListItemID": "string",
       "Type": "string",
@@ -2107,6 +2107,54 @@ OAuth2
   "Company": "string",
   "CurrencyCode": "string",
   "Custom1": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom2": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom3": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom4": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom5": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom6": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom7": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom8": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom9": {
     "Code": "string",
     "ListItemID": "string",
     "Type": "string",
@@ -2172,12 +2220,6 @@ OAuth2
     "Type": "string",
     "Value": "string"
   },
-  "Custom2": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
   "Custom20": {
     "Code": "string",
     "ListItemID": "string",
@@ -2214,48 +2256,6 @@ OAuth2
     "Type": "string",
     "Value": "string"
   },
-  "Custom3": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom4": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom5": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom6": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom7": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom8": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom9": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
   "ExternalID": "string",
   "FirstName": "string",
   "HasExceptionsPrevYear": true,
@@ -2284,6 +2284,14 @@ OAuth2
 |Company|string|false|none|The name of the attendee's company. Maximum length: 150 characters|
 |CurrencyCode|string|false|none|The 3-letter ISO 4217 currency code for monetary amounts related to an attendee.|
 |Custom1|[CustomField](#schemacustomfield)|false|none|none|
+|Custom2|[CustomField](#schemacustomfield)|false|none|none|
+|Custom3|[CustomField](#schemacustomfield)|false|none|none|
+|Custom4|[CustomField](#schemacustomfield)|false|none|none|
+|Custom5|[CustomField](#schemacustomfield)|false|none|none|
+|Custom6|[CustomField](#schemacustomfield)|false|none|none|
+|Custom7|[CustomField](#schemacustomfield)|false|none|none|
+|Custom8|[CustomField](#schemacustomfield)|false|none|none|
+|Custom9|[CustomField](#schemacustomfield)|false|none|none|
 |Custom10|[CustomField](#schemacustomfield)|false|none|none|
 |Custom11|[CustomField](#schemacustomfield)|false|none|none|
 |Custom12|[CustomField](#schemacustomfield)|false|none|none|
@@ -2294,20 +2302,12 @@ OAuth2
 |Custom17|[CustomField](#schemacustomfield)|false|none|none|
 |Custom18|[CustomField](#schemacustomfield)|false|none|none|
 |Custom19|[CustomField](#schemacustomfield)|false|none|none|
-|Custom2|[CustomField](#schemacustomfield)|false|none|none|
 |Custom20|[CustomField](#schemacustomfield)|false|none|none|
 |Custom21|[CustomField](#schemacustomfield)|false|none|none|
 |Custom22|[CustomField](#schemacustomfield)|false|none|none|
 |Custom23|[CustomField](#schemacustomfield)|false|none|none|
 |Custom24|[CustomField](#schemacustomfield)|false|none|none|
 |Custom25|[CustomField](#schemacustomfield)|false|none|none|
-|Custom3|[CustomField](#schemacustomfield)|false|none|none|
-|Custom4|[CustomField](#schemacustomfield)|false|none|none|
-|Custom5|[CustomField](#schemacustomfield)|false|none|none|
-|Custom6|[CustomField](#schemacustomfield)|false|none|none|
-|Custom7|[CustomField](#schemacustomfield)|false|none|none|
-|Custom8|[CustomField](#schemacustomfield)|false|none|none|
-|Custom9|[CustomField](#schemacustomfield)|false|none|none|
 |ExternalID|string|false|none|A unique identifier for the attendee, assigned outside of Concur. Maximum length: 48 characters|
 |FirstName|string|false|none|The attendee's first name. Maximum length: 50 characters|
 |HasExceptionsPrevYear|boolean|false|none|Determines whether the attendee had exceptions in the previous year, based on yearly total limits for attendees. Format: true or false|

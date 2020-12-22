@@ -222,6 +222,54 @@ Gets all expense entries owned by the user.
       "Type": "string",
       "Value": "string"
     },
+    "Custom2": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom3": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom4": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom5": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom6": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom7": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom8": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom9": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
     "Custom10": {
       "Code": "string",
       "ListItemID": "string",
@@ -277,12 +325,6 @@ Gets all expense entries owned by the user.
       "Value": "string"
     },
     "Custom19": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom2": {
       "Code": "string",
       "ListItemID": "string",
       "Type": "string",
@@ -348,12 +390,6 @@ Gets all expense entries owned by the user.
       "Type": "string",
       "Value": "string"
     },
-    "Custom3": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
     "Custom30": {
       "Code": "string",
       "ListItemID": "string",
@@ -414,43 +450,7 @@ Gets all expense entries owned by the user.
       "Type": "string",
       "Value": "string"
     },
-    "Custom4": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
     "Custom40": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom5": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom6": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom7": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom8": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom9": {
       "Code": "string",
       "ListItemID": "string",
       "Type": "string",
@@ -563,6 +563,54 @@ Gets all expense entries owned by the user.
       <Type>string</Type>
       <Value>string</Value>
     </Custom1>
+    <Custom2>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom2>
+    <Custom3>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom3>
+    <Custom4>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom4>
+    <Custom5>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom5>
+    <Custom6>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom6>
+    <Custom7>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom7>
+    <Custom8>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom8>
+    <Custom9>
+      <Code>string</Code>
+      <ListItemID>string</ListItemID>
+      <Type>string</Type>
+      <Value>string</Value>
+    </Custom9>
     <Custom10>
       <Code>string</Code>
       <ListItemID>string</ListItemID>
@@ -623,12 +671,6 @@ Gets all expense entries owned by the user.
       <Type>string</Type>
       <Value>string</Value>
     </Custom19>
-    <Custom2>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom2>
     <Custom20>
       <Code>string</Code>
       <ListItemID>string</ListItemID>
@@ -689,12 +731,6 @@ Gets all expense entries owned by the user.
       <Type>string</Type>
       <Value>string</Value>
     </Custom29>
-    <Custom3>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom3>
     <Custom30>
       <Code>string</Code>
       <ListItemID>string</ListItemID>
@@ -755,48 +791,12 @@ Gets all expense entries owned by the user.
       <Type>string</Type>
       <Value>string</Value>
     </Custom39>
-    <Custom4>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom4>
     <Custom40>
       <Code>string</Code>
       <ListItemID>string</ListItemID>
       <Type>string</Type>
       <Value>string</Value>
     </Custom40>
-    <Custom5>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom5>
-    <Custom6>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom6>
-    <Custom7>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom7>
-    <Custom8>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom8>
-    <Custom9>
-      <Code>string</Code>
-      <ListItemID>string</ListItemID>
-      <Type>string</Type>
-      <Value>string</Value>
-    </Custom9>
     <Description>string</Description>
     <ElectronicReceiptID>string</ElectronicReceiptID>
     <EmployeeBankAccountID>string</EmployeeBankAccountID>
@@ -1501,6 +1501,54 @@ Gets the specified expense entry.
     "Type": "string",
     "Value": "string"
   },
+  "Custom2": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom3": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom4": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom5": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom6": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom7": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom8": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom9": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
   "Custom10": {
     "Code": "string",
     "ListItemID": "string",
@@ -1556,12 +1604,6 @@ Gets the specified expense entry.
     "Value": "string"
   },
   "Custom19": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom2": {
     "Code": "string",
     "ListItemID": "string",
     "Type": "string",
@@ -1627,12 +1669,6 @@ Gets the specified expense entry.
     "Type": "string",
     "Value": "string"
   },
-  "Custom3": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
   "Custom30": {
     "Code": "string",
     "ListItemID": "string",
@@ -1693,43 +1729,7 @@ Gets the specified expense entry.
     "Type": "string",
     "Value": "string"
   },
-  "Custom4": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
   "Custom40": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom5": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom6": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom7": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom8": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom9": {
     "Code": "string",
     "ListItemID": "string",
     "Type": "string",
@@ -1839,6 +1839,54 @@ Gets the specified expense entry.
     <Type>string</Type>
     <Value>string</Value>
   </Custom1>
+  <Custom2>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom2>
+  <Custom3>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom3>
+  <Custom4>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom4>
+  <Custom5>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom5>
+  <Custom6>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom6>
+  <Custom7>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom7>
+  <Custom8>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom8>
+  <Custom9>
+    <Code>string</Code>
+    <ListItemID>string</ListItemID>
+    <Type>string</Type>
+    <Value>string</Value>
+  </Custom9>
   <Custom10>
     <Code>string</Code>
     <ListItemID>string</ListItemID>
@@ -1899,12 +1947,6 @@ Gets the specified expense entry.
     <Type>string</Type>
     <Value>string</Value>
   </Custom19>
-  <Custom2>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom2>
   <Custom20>
     <Code>string</Code>
     <ListItemID>string</ListItemID>
@@ -1965,12 +2007,6 @@ Gets the specified expense entry.
     <Type>string</Type>
     <Value>string</Value>
   </Custom29>
-  <Custom3>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom3>
   <Custom30>
     <Code>string</Code>
     <ListItemID>string</ListItemID>
@@ -2031,48 +2067,12 @@ Gets the specified expense entry.
     <Type>string</Type>
     <Value>string</Value>
   </Custom39>
-  <Custom4>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom4>
   <Custom40>
     <Code>string</Code>
     <ListItemID>string</ListItemID>
     <Type>string</Type>
     <Value>string</Value>
   </Custom40>
-  <Custom5>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom5>
-  <Custom6>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom6>
-  <Custom7>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom7>
-  <Custom8>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom8>
-  <Custom9>
-    <Code>string</Code>
-    <ListItemID>string</ListItemID>
-    <Type>string</Type>
-    <Value>string</Value>
-  </Custom9>
   <Description>string</Description>
   <ElectronicReceiptID>string</ElectronicReceiptID>
   <EmployeeBankAccountID>string</EmployeeBankAccountID>
@@ -2848,6 +2848,54 @@ OAuth2
       "Type": "string",
       "Value": "string"
     },
+    "Custom2": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom3": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom4": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom5": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom6": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom7": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom8": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
+    "Custom9": {
+      "Code": "string",
+      "ListItemID": "string",
+      "Type": "string",
+      "Value": "string"
+    },
     "Custom10": {
       "Code": "string",
       "ListItemID": "string",
@@ -2903,12 +2951,6 @@ OAuth2
       "Value": "string"
     },
     "Custom19": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom2": {
       "Code": "string",
       "ListItemID": "string",
       "Type": "string",
@@ -2974,12 +3016,6 @@ OAuth2
       "Type": "string",
       "Value": "string"
     },
-    "Custom3": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
     "Custom30": {
       "Code": "string",
       "ListItemID": "string",
@@ -3040,43 +3076,7 @@ OAuth2
       "Type": "string",
       "Value": "string"
     },
-    "Custom4": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
     "Custom40": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom5": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom6": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom7": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom8": {
-      "Code": "string",
-      "ListItemID": "string",
-      "Type": "string",
-      "Value": "string"
-    },
-    "Custom9": {
       "Code": "string",
       "ListItemID": "string",
       "Type": "string",
@@ -3202,6 +3202,54 @@ OAuth2
     "Type": "string",
     "Value": "string"
   },
+  "Custom2": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom3": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom4": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom5": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom6": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom7": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom8": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
+  "Custom9": {
+    "Code": "string",
+    "ListItemID": "string",
+    "Type": "string",
+    "Value": "string"
+  },
   "Custom10": {
     "Code": "string",
     "ListItemID": "string",
@@ -3257,12 +3305,6 @@ OAuth2
     "Value": "string"
   },
   "Custom19": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom2": {
     "Code": "string",
     "ListItemID": "string",
     "Type": "string",
@@ -3328,12 +3370,6 @@ OAuth2
     "Type": "string",
     "Value": "string"
   },
-  "Custom3": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
   "Custom30": {
     "Code": "string",
     "ListItemID": "string",
@@ -3394,43 +3430,7 @@ OAuth2
     "Type": "string",
     "Value": "string"
   },
-  "Custom4": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
   "Custom40": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom5": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom6": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom7": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom8": {
-    "Code": "string",
-    "ListItemID": "string",
-    "Type": "string",
-    "Value": "string"
-  },
-  "Custom9": {
     "Code": "string",
     "ListItemID": "string",
     "Type": "string",
@@ -3537,6 +3537,14 @@ OAuth2
 |ApprovedAmount|number(double)|false|none|The approved amount of the expense entry, in the report currency.|
 |CompanyCardTransactionID|string|false|none|The unique identifier for a company card transaction that is associated with this expense. This element is null when there is no company card transaction associated with this expense.|
 |Custom1|[CustomField](#schemacustomfield)|false|none|none|
+|Custom2|[CustomField](#schemacustomfield)|false|none|none|
+|Custom3|[CustomField](#schemacustomfield)|false|none|none|
+|Custom4|[CustomField](#schemacustomfield)|false|none|none|
+|Custom5|[CustomField](#schemacustomfield)|false|none|none|
+|Custom6|[CustomField](#schemacustomfield)|false|none|none|
+|Custom7|[CustomField](#schemacustomfield)|false|none|none|
+|Custom8|[CustomField](#schemacustomfield)|false|none|none|
+|Custom9|[CustomField](#schemacustomfield)|false|none|none|
 |Custom10|[CustomField](#schemacustomfield)|false|none|none|
 |Custom11|[CustomField](#schemacustomfield)|false|none|none|
 |Custom12|[CustomField](#schemacustomfield)|false|none|none|
@@ -3547,7 +3555,6 @@ OAuth2
 |Custom17|[CustomField](#schemacustomfield)|false|none|none|
 |Custom18|[CustomField](#schemacustomfield)|false|none|none|
 |Custom19|[CustomField](#schemacustomfield)|false|none|none|
-|Custom2|[CustomField](#schemacustomfield)|false|none|none|
 |Custom20|[CustomField](#schemacustomfield)|false|none|none|
 |Custom21|[CustomField](#schemacustomfield)|false|none|none|
 |Custom22|[CustomField](#schemacustomfield)|false|none|none|
@@ -3558,7 +3565,6 @@ OAuth2
 |Custom27|[CustomField](#schemacustomfield)|false|none|none|
 |Custom28|[CustomField](#schemacustomfield)|false|none|none|
 |Custom29|[CustomField](#schemacustomfield)|false|none|none|
-|Custom3|[CustomField](#schemacustomfield)|false|none|none|
 |Custom30|[CustomField](#schemacustomfield)|false|none|none|
 |Custom31|[CustomField](#schemacustomfield)|false|none|none|
 |Custom32|[CustomField](#schemacustomfield)|false|none|none|
@@ -3569,13 +3575,7 @@ OAuth2
 |Custom37|[CustomField](#schemacustomfield)|false|none|none|
 |Custom38|[CustomField](#schemacustomfield)|false|none|none|
 |Custom39|[CustomField](#schemacustomfield)|false|none|none|
-|Custom4|[CustomField](#schemacustomfield)|false|none|none|
 |Custom40|[CustomField](#schemacustomfield)|false|none|none|
-|Custom5|[CustomField](#schemacustomfield)|false|none|none|
-|Custom6|[CustomField](#schemacustomfield)|false|none|none|
-|Custom7|[CustomField](#schemacustomfield)|false|none|none|
-|Custom8|[CustomField](#schemacustomfield)|false|none|none|
-|Custom9|[CustomField](#schemacustomfield)|false|none|none|
 |Description|string|false|none|The description of the expense. Maximum length: 64 characters|
 |ElectronicReceiptID|string|false|none|The unique identifier for an eReceipt that is associated with this expense. This element is null when there is no eReceipt associated with this expense.|
 |EmployeeBankAccountID|string|false|none|The unique identifier of an employee bank account that is associated with this expense. Typically, this element is used when Expense Pay reimburses the employee for this expense.|

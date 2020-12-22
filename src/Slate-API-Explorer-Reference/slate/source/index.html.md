@@ -47,6 +47,7 @@ includes:
   - InvoicePay.swagger2.json
   - PurchaseRequest.swagger2.json
   - QuickExpenses.swagger.json
+  - ConcurRequest.swagger2.json
   
 toc_footers:
   - <a id="toc-size" href='/'>Back To Developer Center</a>

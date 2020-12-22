@@ -313,6 +313,30 @@
         "Custom1": {
           "$ref": "#/definitions/CustomField"
         },
+        "Custom2": {
+          "$ref": "#/definitions/CustomField"
+        },
+        "Custom3": {
+          "$ref": "#/definitions/CustomField"
+        },
+        "Custom4": {
+          "$ref": "#/definitions/CustomField"
+        },
+        "Custom5": {
+          "$ref": "#/definitions/CustomField"
+        },
+        "Custom6": {
+          "$ref": "#/definitions/CustomField"
+        },
+        "Custom7": {
+          "$ref": "#/definitions/CustomField"
+        },
+        "Custom8": {
+          "$ref": "#/definitions/CustomField"
+        },
+        "Custom9": {
+          "$ref": "#/definitions/CustomField"
+        },
         "Custom10": {
           "$ref": "#/definitions/CustomField"
         },
@@ -341,9 +365,6 @@
           "$ref": "#/definitions/CustomField"
         },
         "Custom19": {
-          "$ref": "#/definitions/CustomField"
-        },
-        "Custom2": {
           "$ref": "#/definitions/CustomField"
         },
         "Custom20": {
@@ -376,28 +397,7 @@
         "Custom29": {
           "$ref": "#/definitions/CustomField"
         },
-        "Custom3": {
-          "$ref": "#/definitions/CustomField"
-        },
         "Custom30": {
-          "$ref": "#/definitions/CustomField"
-        },
-        "Custom31": {
-          "$ref": "#/definitions/CustomField"
-        },
-        "Custom32": {
-          "$ref": "#/definitions/CustomField"
-        },
-        "Custom33": {
-          "$ref": "#/definitions/CustomField"
-        },
-        "Custom34": {
-          "$ref": "#/definitions/CustomField"
-        },
-        "Custom35": {
-          "$ref": "#/definitions/CustomField"
-        },
-        "Custom36": {
           "$ref": "#/definitions/CustomField"
         },
         "Custom37": {
@@ -409,25 +409,25 @@
         "Custom39": {
           "$ref": "#/definitions/CustomField"
         },
-        "Custom4": {
-          "$ref": "#/definitions/CustomField"
-        },
         "Custom40": {
           "$ref": "#/definitions/CustomField"
         },
-        "Custom5": {
+        "Custom41": {
           "$ref": "#/definitions/CustomField"
         },
-        "Custom6": {
+        "Custom42": {
           "$ref": "#/definitions/CustomField"
         },
-        "Custom7": {
+        "Custom43": {
           "$ref": "#/definitions/CustomField"
         },
-        "Custom8": {
+        "Custom44": {
           "$ref": "#/definitions/CustomField"
         },
-        "Custom9": {
+        "Custom45": {
+          "$ref": "#/definitions/CustomField"
+        },
+        "Custom46": {
           "$ref": "#/definitions/CustomField"
         },
         "Description": {
