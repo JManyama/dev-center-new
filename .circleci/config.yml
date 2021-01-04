@@ -14,7 +14,7 @@ jobs:
 
       - run: sudo apt-get install python3 python-dev
       - run: sudo apt-get install -y python3-pip python-dev 
-      - run: sudo pip3 install unipath
+      - run: sudo pip3 install Unipath
       - run:
           name: Widdershins
           command: python ./z_widdershins_recursive.py
