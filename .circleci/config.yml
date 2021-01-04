@@ -19,10 +19,10 @@ jobs:
       - run: pipenv install Unipath
       - run:
           name: Widdershins
-          command: pipenv run ./z_widdershins_recursive.py
+          command: pipenv run python ./z_widdershins_recursive.py
       - run:
           name: Add Underscore V3.0
-          command: pipenv run ./src/api-explorer/v3-0/z_underscore_v3_0.py
+          command: pipenv run python ./src/api-explorer/v3-0/z_underscore_v3_0.py
       - run:
           name: Add Underscore V3.1
           command: python ./src/api-explorer/v3-1/z_underscore_v3_1.py
