@@ -11,7 +11,8 @@ os.path.abspath(r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\api-exp
 #os.chdir(r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\api-explorer\v3-0")
 
 #Add "_" to the beginning of every markdown file that does not have it
-for markdown in Path(r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\api-explorer\v3-0").listdir():
+for markdown in os.listdir():
+    print(markdown)
     if "_" not in markdown:
         new_name = "_" + markdown        
         os.rename(markdown, new_name)
