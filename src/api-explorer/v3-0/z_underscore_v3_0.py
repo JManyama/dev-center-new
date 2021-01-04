@@ -17,13 +17,11 @@ import os
 #These are the 2 paths you may edit for testing on your machine:
 
 #os.chdir(r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\api-explorer\v3-0")
-
 #v3_0 = Path(r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\api-explorer\v3-0")
 
+v3_0 = Path(r"./src/api-explorer/v3-0")
 
 #Add "_" to the beginning of every markdown file that does not have it
-
-v3_0 = Path(r"./src/api-explorer/v3-0")
 for markdown in v3_0.listdir():
     #os.path.join(v3_0, markdown)
     print(markdown)
