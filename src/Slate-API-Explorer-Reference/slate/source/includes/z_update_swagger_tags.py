@@ -76,11 +76,16 @@ connection_requests_32_hashed = '## Connection Requests v3.2'
 
 
 # Slate 'includes' folder
-to_slate_repo_includes = Path(r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\Slate-API-Explorer-Reference\slate\source\includes").listdir()
+
+to_slate_repo_includes =  Path(r"./src/Slate-API-Explorer-Reference/slate/source/includes/")
+
+# The below commented path is used for testing on the local machine. You may edit the path after the r" to the
+# location of Slate's 'includes' folder on your machine
+
+#to_slate_repo_includes = Path(r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\Slate-API-Explorer-Reference\slate\source\includes").listdir()
 
 
 # Update H1 Title Tag, H1 Resource Tag, and remove Authentication section from file - These updates are needed so file renders with correct font sizes in Slate UI
-
 
 def updateTagsAndRemoveAuth():
     for swagger in to_slate_repo_includes:
