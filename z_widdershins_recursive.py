@@ -33,6 +33,7 @@ def convertSwaggerToMarkdown():
     cmd = 'For /R C:\\Users\\I860605\\Desktop\\Dev_Center_New\\dev_concur\\src\\api-explorer\\ %G IN (*.json) do widdershins "%G" -o "%G".md'
     subprocess.call(cmd, shell=True)
     #subprocess.run(cmd, shell=True)
+    print("Files successfully converted to markdown")
       
 
 
