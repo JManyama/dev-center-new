@@ -5,8 +5,6 @@ jobs:
       - image: circleci/ruby:2.7
     environment:
       BUNDLE_PATH: ~/repo/vendor/bundle 
-    python:
-        version: 3.7.3-1
     steps:
       - checkout
       - restore_cache:
@@ -15,8 +13,10 @@ jobs:
             - rubygems-v1-fallback
 
       - run: sudo apt-get install python3 
-      - run: sudo apt-get install -y python3-pip  
-      - run: pip3 install Unipath
+      - run: sudo apt-get install -y python3-pip 
+      - run: sudo pip3 install pipenv 
+      - run: pipenv install
+      - run: pipenv install Unipath
       - run:
           name: Widdershins
           command: python ./z_widdershins_recursive.py
