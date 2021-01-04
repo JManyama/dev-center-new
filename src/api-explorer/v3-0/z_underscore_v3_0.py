@@ -12,9 +12,12 @@ import os
 
 v3_0 = Path(r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\api-explorer\v3-0")
 #Add "_" to the beginning of every markdown file that does not have it
+
+
+
 for markdown in v3_0.listdir():
-    #os.path.join(r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\api-explorer\v3-0", markdown)
-    #print(markdown)
+    os.path.join(v3_0, markdown)
+    print(markdown)
     if "_" not in markdown:
         new_name = "_" + markdown        
         os.rename(markdown, new_name)
