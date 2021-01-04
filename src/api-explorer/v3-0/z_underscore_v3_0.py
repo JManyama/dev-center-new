@@ -11,7 +11,7 @@ os.path.abspath(r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\api-exp
 #os.chdir(r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\api-explorer\v3-0")
 
 #Add "_" to the beginning of every markdown file that does not have it
-for markdown in os.listdir():
+for markdown in os.listdir(r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\api-explorer\v3-0"):
     os.path.join(r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\api-explorer\v3-0", markdown)
     #print(markdown)
     if "_" not in markdown:
