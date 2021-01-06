@@ -47,8 +47,14 @@ jobs:
       
   my-job2:
     executor: my-executor2
+    environment:
+      BUNDLE_PATH: ~/repo/vendor/bundle 
     steps:
       - checkout 
+      - restore_cache:
+          keys:
+            - rubygems-v1-{{ checksum "Gemfile.lock" }}
+            - rubygems-v1-fallback
       - attach_workspace:
           at: ./   
       - run:
