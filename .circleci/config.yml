@@ -47,7 +47,10 @@ jobs:
       
   my-job2:
     executor: my-executor2
-    steps:                
+    steps:
+      - checkout 
+      - attach_workspace:
+          at: ./                
       - run:
           name: Build Fresh Slate Static Files
           no_output_timeout: 30m
@@ -55,9 +58,12 @@ jobs:
   my-job3:
     executor: my-executor1
     steps:
+      - checkout 
+      - attach_workspace:
+          at: ./
       - run:
           name: Move Static Files Back To Dev Center
-          command: ./z_slate-to-dc-file-transfer.py
+          command: pipenv run python ./z_slate-to-dc-file-transfer.py
       - run:
           name: install dependencies
           command: |
