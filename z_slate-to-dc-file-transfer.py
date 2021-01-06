@@ -6,13 +6,23 @@ import shutil
 
 # This script will run after CircleCI generates a fresh set of static files in Slate
 
+# The below commented paths are used for testing on the local machine. You may edit the path after the r" to the
+# location of Dev Center's 'index.html' and 'api-reference' files on your machine
+
+
 # Slate Repo -  Staic Files for API Explorer and API Reference
-from_slate_repo_explorer = Path (r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\Slate-API-Explorer-Reference\slate\build\index.html")
-from_slate_repo_reference = Path (r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\Slate-API-Explorer-Reference\slate\build\api-reference.html")
+from_slate_repo_explorer = Path(r"./src/Slate-API-Explorer-Reference/slate/build/index.html")
+from_slate_repo_reference = Path(r"./src/Slate-API-Explorer-Reference/slate/build/api-reference.html")
+
+#from_slate_repo_explorer = Path (r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\Slate-API-Explorer-Reference\slate\build\index.html")
+#from_slate_repo_reference = Path (r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\Slate-API-Explorer-Reference\slate\build\api-reference.html")
 
 # Dev Center Repo - Static Files for API Explorer and API Reference
-to_dc_repo_explorer = Path(r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\slate-ui\build\index.html")
-to_dc_repo_reference = Path(r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\slate-ui\build\api-reference.html")
+to_dc_repo_explorer = Path(r"./src/slate-ui/build/index.html")
+to_dc_repo_reference = Path(r"./src/slate-ui/build/api-reference.html")
+
+#to_dc_repo_explorer = Path(r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\slate-ui\build\index.html")
+#to_dc_repo_reference = Path(r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\slate-ui\build\api-reference.html")
 
 
 # Move Static API Explorer and API Reference Files from Slate to Dev Center
