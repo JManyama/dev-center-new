@@ -80,6 +80,11 @@ jobs:
       - attach_workspace:
           at: ./
       - run:
+          name: install dependencies
+          command: |
+                gem update --system
+                gem install bundler  
+      - run:
           name: Generate fresh Slate Static Files
           command: bundle exec middleman build
     
