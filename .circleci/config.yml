@@ -85,7 +85,6 @@ jobs:
           paths:
             - _site
   deploy:
-    executor: my-executor1
     docker:
       - image: node:8.10.0
     steps:
@@ -114,7 +113,7 @@ workflows:
       - my-job
       - deploy:
           requires:
-            - my-executor1
+            - my-job
           filters:
             branches:
               only: master
