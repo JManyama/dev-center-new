@@ -69,8 +69,14 @@ jobs:
           command: cd ./src/Slate-API-Explorer-Reference/slate && bundle install && bundle exec middleman build
   my-job3:
     executor: my-executor1
+    environment:
+      BUNDLE_PATH: ~/repo/vendor/bundle 
     steps:
       - checkout 
+      - restore_cache:
+          keys:
+            - rubygems-v1-{{ checksum "Gemfile.lock" }}
+            - rubygems-v1-fallback
       - attach_workspace:
           at: ./
       - run: sudo apt-get install python3 
