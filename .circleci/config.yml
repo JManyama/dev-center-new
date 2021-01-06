@@ -44,7 +44,7 @@ workflows:
   version: 2
   middeman:
     jobs:
-      build:
+      build_middleman:
         docker:
           - image: node:8.10.0
         steps:
