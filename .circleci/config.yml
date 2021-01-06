@@ -131,9 +131,9 @@ workflows:
   version: 2
   test-deploy:
     jobs:
-      - my-job
-      - my-job2
       - my-job3
+      - my-job2
+      - my-job
       - deploy:
           requires:
             - my-job
