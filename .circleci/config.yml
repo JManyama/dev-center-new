@@ -110,10 +110,10 @@ workflows:
   version: 2.1
   test-deploy:
     jobs:
-      - build
+      - my-executor1
       - deploy:
           requires:
-            - build
+            - my-executor1
           filters:
             branches:
               only: master
