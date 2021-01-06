@@ -108,11 +108,9 @@ jobs:
             - 92:ab:83:d4:10:dd:52:70:3a:8e:51:2f:d6:ea:79:5b
 workflows:         
   version: 2.1
-  test-deploy:
-    jobs:
-      my-job4:
-        executor: my-executor1
-      - deploy:
+    my-job4:
+      executor: my-executor1
+        - deploy:
           requires:
             - my-executor1
           filters:
