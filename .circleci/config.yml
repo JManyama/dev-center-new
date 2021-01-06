@@ -111,6 +111,8 @@ workflows:
   test-deploy:
     jobs:
       - my-job
+      - my-job2
+      - my-job3
       - deploy:
           requires:
             - my-job
