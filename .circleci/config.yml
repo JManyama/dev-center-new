@@ -42,7 +42,6 @@ jobs:
 
 workflows:
   version: 2
-    jobs:
       build:
         docker:
           - image: node:8.10.0
