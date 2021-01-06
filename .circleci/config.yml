@@ -85,6 +85,7 @@ jobs:
           paths:
             - _site
   deploy:
+    executor: my-executor1
     docker:
       - image: node:8.10.0
     steps:
