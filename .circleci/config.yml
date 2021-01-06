@@ -50,7 +50,12 @@ jobs:
     steps:
       - checkout 
       - attach_workspace:
-          at: ./                
+          at: ./   
+      - run:
+          name: install dependencies
+          command: |
+                gem update --system
+                gem install bundler               
       - run:
           name: Build Fresh Slate Static Files
           no_output_timeout: 30m
@@ -61,6 +66,10 @@ jobs:
       - checkout 
       - attach_workspace:
           at: ./
+      - run: sudo apt-get install python3 
+      - run: sudo apt-get install -y python3-pip 
+      - run: sudo pip3 install pipenv 
+      - run: pipenv install
       - run:
           name: Move Static Files Back To Dev Center
           command: pipenv run python ./z_slate-to-dc-file-transfer.py
