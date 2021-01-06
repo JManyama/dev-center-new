@@ -1,22 +1,4 @@
----
-title: Connection Requests v3.1
-language_tabs:
-  - shell: Shell
-  - http: HTTP
-  - javascript: JavaScript
-  - ruby: Ruby
-  - python: Python
-  - php: PHP
-  - java: Java
-  - go: Go
-toc_footers: []
-includes: []
-search: true
-highlight_theme: darkula
-headingLevel: 2
-generator: widdershins v4.0.1
 
----
 
 ## Connection Requests v3.1
 

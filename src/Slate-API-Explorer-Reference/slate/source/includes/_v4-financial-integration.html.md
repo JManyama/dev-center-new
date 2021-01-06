@@ -867,9 +867,9 @@ Name|Type|Format|Description
 `errorMessage`|`string`|-|The error message, if any.
 `systemId`|`string`|-|The external system ID that acknowledged the document. Maximum 50 chars.
 
-#### <a name="example"></a>Example Financial Documents
+### <a name="example"></a>Example Financial Documents
 
-### <a name="example-expense"></a>Expense
+#### <a name="example-expense"></a>Expense
 
 ```json
 {
