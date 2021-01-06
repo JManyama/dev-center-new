@@ -110,7 +110,8 @@ workflows:
   version: 2.1
   test-deploy:
     jobs:
-      - my-executor1
+      my-job4:
+        executor: my-executor1
       - deploy:
           requires:
             - my-executor1
