@@ -112,7 +112,7 @@ jobs:
     steps:
       - deploy:
           requires:
-           - my-executor1
-              filters:
-                branches:
-                  only: master
+            - my-executor1
+          filters:
+            branches:
+              only: master
