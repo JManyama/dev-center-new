@@ -372,7 +372,7 @@ html, body {
     @extend %header-font;
     font-size: 25px;//previously 16px
     margin-top: 0.5em;
-    margin-bottom: 0;
+    margin-bottom: -47px;//previously 0- updated to make sure Schema subtitles and Properties are visible without having to scroll up.
     padding-top: 1.2em;
     padding-bottom: 1.2em;
     background-image: linear-gradient(to bottom, rgba(#fff, 0.2), rgba(#fff, 0));
@@ -381,17 +381,240 @@ html, body {
   h4 {
     @extend %header-font;
     font-size: 19px;//previously 13px
-    margin-top: 0.5em;
+    margin-top: 30px;//previously 0.5em
     margin-bottom: 0;
     padding-top: 1.2em;
     padding-bottom: 1.2em;
     background-image: linear-gradient(to bottom, rgba(#fff, 0.2), rgba(#fff, 0));
   }
 
+
+  //API REFERENCE 
+
+  #menu {
+    margin-bottom: -20px;
+  }
   
+  #getting-started{
+    margin-bottom: -20px;
+  }
+
+  #overview{
+    margin-bottom: -20px;
+  }
+
+  h3[id*="get-all"] {//ensuring that API Reference headings with Get All do not overlap sub items
+    margin-bottom: -20px;
+    }
+  
+  h3[id*="obtain"] {//ensuring that API Reference headings with Obtain or Obtaining do not overlap sub items
+    margin-bottom: -20px;
+  }
+
+  h4[id*="obtain"] {//ensuring that API Reference headings with Obtain or Obtaining do not overlap sub items
+      margin-bottom: -20px;
+  }
+
+  h3[id*="calling"] {//ensuring that API Reference headings with Obtain or Obtaining do not overlap sub items
+    margin-bottom: -20px;
+  }
+  #base-uris {//ensuring that API Reference headings with Base URIs do not overlap sub items
+    margin-bottom: -20px;
+  }
+
+  #calling-an-api-with-access-token{//ensuring that API Reference headings with Calling An API Access Token do not overlap sub items
+    margin-bottom: -20px;
+  }
+
+  #company {//ensuring that API Reference headings with Calling An API Access Token do not overlap sub items
+    margin-bottom: -20px;
+  }
+
+  #exchanging-a-token{
+    margin-bottom: -20px;
+  }
+
+  h3[id*="paging"]{
+    margin-bottom: -20px;
+  }
+  
+  #description{
+    margin-bottom: -20px;
+  }
+  
+  h3[id*="agency-proposal"]{
+    margin-bottom: -20px;
+  }
 
 
+  h3[id*="query-parameters"]{
+    margin-bottom:-20px;
+  }
 
+  h3[id*="content"]{
+    margin-bottom: -20px;
+  }
+
+  #request-body{
+    margin-bottom: -20px;
+  }
+
+  #request-parameters{
+    margin-bottom: -20px;
+  }
+
+  h3[id*="request"]{
+    margin-bottom: -20px;
+  }
+
+  #itineraries-and-trips{
+    margin-bottom: -20px;
+  }
+
+  #2-getting-started{
+    margin-bottom: -30px;
+  }
+
+  #old-world-authentication{
+    margin-bottom: -30px;
+  }
+  
+  #travel-management-companies{
+    margin-bottom: -20px;
+  }
+
+  #triplink-travel-suppliers{
+    margin-bottom: -20px;
+  }
+
+  #sap-concur-clients-and-third-party-developers{
+    margin-bottom: -20px;
+  }
+
+  
+  h3[id*="response"]{
+    margin-bottom: -20px;
+  }
+
+  h3[id*="scope"]{
+    margin-bottom: -20px;
+  }
+
+   
+  h3[id*="authorization"]{
+    margin-bottom: -20px;
+  }
+
+  #get-a-budget-item{
+    margin-bottom:-20px;
+  }
+
+  #get-a-fiscal-year{
+    margin-bottom: -20px;
+  }
+
+  #budgetperson{
+    margin-bottom: -20px;
+  }
+
+  #naming-convention{
+    margin-bottom: -20px;
+  }
+
+  #budget-item{
+    margin-bottom: -20px;
+  }
+
+  #post-a-budget-item{
+    margin-bottom: -20px;
+  }
+
+  #travel-booking{
+    margin-bottom: -20px;
+  }
+  #trips{
+    margin-bottom: -20px;
+  }
+
+  
+  #schema{
+    margin-bottom: -20px;
+  }
+
+  #uri{
+    margin-bottom: -20px;
+  }
+ 
+  h3[id*="request-headers"]{
+    margin-bottom:-20px;
+  }
+
+  #request-schema{
+    margin-bottom:-20px;
+  }
+
+
+  #version{
+    margin-bottom: -20px;
+  }
+
+  h3[id*="step"]{
+    margin-bottom: -20px;
+  }
+
+  #process-flow{
+    margin-bottom: -20px;
+  }
+
+  h3[id*="procedure"]{
+    margin-bottom: -20px;
+  }
+
+  h3[id*="example"]{
+    margin-bottom: -20px;
+  }
+
+  #get-oauth-access-token{
+    margin-bottom: -20px;
+  }
+
+  #get-request-details{
+    margin-bottom: -20px;
+  }
+
+  #create-a-connection-request-on-behalf-of-a-specific-user{
+    margin-bottom: -20px;
+  }
+
+  h3[id*="retrieve"]{
+    margin-bottom: -20px;
+  }
+
+  h3[id*="update"]{
+    margin-bottom: -20px;
+  }
+
+  #capabilities{
+    margin-bottom: -20px;
+  }
+  
+  #service-codes{
+    margin-bottom: -20px;
+  }
+
+  h3[id*="input"]{
+    margin-bottom: -20px;
+  }
+
+  #dependencies{
+    margin-bottom: -20px;
+  }
+
+  #access-token-usage{
+    margin-bottom: -20px;
+  }
+
+ 
   // the div is the tocify hidden div for placeholding stuff
   &>h1, &>h2, &>div {
     clear:both;
@@ -471,7 +694,9 @@ html, body {
 
   table {
     margin-bottom: 1em;
+    margin-top: 25px;
     overflow: auto;
+    
     th,td {
       text-align: left;
       vertical-align: top;
@@ -483,14 +708,6 @@ html, body {
     }
 
 
-pre.highlight.json.tab-json{
-  height: 10 px;
-  overflow:scroll !important;
-}
-
-.json{
-  overflow:scroll;
-}
   
 
     th {
@@ -598,7 +815,7 @@ pre.highlight.json.tab-json{
 
 // Scroll bar for code samples
 .content pre {
-  max-height: 175px;
+  max-height: 150px;//originally at 175px
   overflow-y: auto;
 
 }
@@ -639,13 +856,32 @@ pre.highlight.json.tab-json{
     padding-bottom: 2em;
     padding: 2em $main-padding;
   }
-
-  blockquote, p{
-    margin-bottom: 0px;
+ // This will move Code Sample and Example Response orange blocks up/down 
+  blockquote{
+    margin-top: 0px;
   }
 
+  // Put small space in between JSON and XML Example Response code samples, since their using a scrollbar.
+  pre.highlight.json.tab-json{
+    margin-bottom: 5px;
+  }
+ // Put small space between the Code Sample and Body Parameter blocks for the POST reqeusts.
+  .highlight{
+    margin-bottom:10px;
+    
+  }
+  //Align Request and Response code samples with their titles in middle section  
+  pre.highlight.http.tab-http{
+    margin-top:-50px;
+    margin-bottom:70px;
+  }
 
-  
+   pre.highlight.shell.tab-shell{
+     margin-top:-90px;
+  // margin-bottom:-30px;
+    
+  }
+
 
   blockquote {
     &>p {
@@ -807,13 +1043,17 @@ background-color:#C5862B;;
 
 }
 
+h3[id*="properties"]{
+  margin-bottom: -20px;
+}
+
 
 /* REST For User Provisioning Form*/
-h4[id*="-get"] {
+//h4[id*="-get"] {
 /*background-color: #0F6AB4;*/
-background-color: #158ff3
+//background-color: #158ff3
 
-}
+//}
 
 h4[id*="event-hook"] {
 /*background-color: #10A54A;*/
@@ -840,10 +1080,6 @@ background-color: #F2DEDE;
 
 }
 
-//Remove erroneous titles the come in from Widdershins
-p[id*="remove_invoice"]{
-  background-color:red;
-}
 
 
 /*'String portion of Response and HTTP title*/
@@ -1011,8 +1247,16 @@ JAVA CODE
   }
   
 
+#custom-size {
+  max-height:110px;
 
+}
 
+// Scroll bar for middle section
+.content table{
+  max-height: 600px;//originally at 175px
+  overflow-y: auto;
+}
 
 
 
