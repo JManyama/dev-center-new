@@ -1,12 +1,19 @@
 version: 2.1
 executors:
+  node-js:
+    docker:
+      - image: node:8.10.0  
   my-executor1:
     docker:
       - image: circleci/ruby:2.7
-  my-executor2:
-    docker:
-      - image: node:8.10.0  
+      
 jobs:
+  install-node:
+    executor: node-js
+    steps:
+      - checkout
+      - run: ECHO Node Installed
+        
   my-job:
     executor: my-executor1
     environment:
@@ -69,7 +76,7 @@ jobs:
     
   
   my-job3:
-    executor: my-executor2
+    executor: my-executor1
     environment:
       BUNDLE_PATH: ~/repo/vendor/bundle 
     steps:
@@ -163,7 +170,9 @@ workflows:
     jobs:
       - my-job
       - my-job2
-      - my-job3
+      - my-job3:
+          requires:
+            - install-node
       - my-job4
       - deploy:
           requires:
