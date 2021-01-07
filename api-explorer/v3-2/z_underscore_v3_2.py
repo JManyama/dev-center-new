@@ -8,10 +8,12 @@ import os
 
 
 # All markdown files in the 'includes' folder in Slate portion of the Dev Center repo
-os.chdir(r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\api-explorer\v3-2")
+#os.chdir(r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\api-explorer\v3-2")
+
+v3_2 = Path(r"./src/api-explorer/v3-2")
 
 #Add "_" to the beginning of every markdown file that does not have it
-for markdown in os.listdir():
+for markdown in v3_2.listdir():
     if "_" not in markdown:
         new_name = "_" + markdown        
         os.rename(markdown, new_name)

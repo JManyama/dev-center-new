@@ -19,6 +19,10 @@ four_hash = "#### "
 schemas_h1 = "# Schemas"
 schemas_h3 = "### Schemas"
 resources = 'Resources</h1>'
+
+resource = 'Resource</h1>'
+workflow_resources = 'Workflow Resource</h2'
+
 authentication = "# Authentication"
 oauth_3 = '- oAuth3 authentication. To use this API, you need to get OAuth client credentials (client ID, secret, and geolocation) from SAP Concur, and be authorized to use the relevant scope. Refer to the <a href="https://developer.concur.com/api-reference/authentication/getting-started.html">full authentication information</a> for more information.'
 oauth_2 = '- oAuth2 authentication. To use this API, you need to get OAuth client credentials (client ID, secret, and geolocation) from SAP Concur, and be authorized to use the relevant scope. Refer to the <a href="https://developer.concur.com/api-reference/authentication/getting-started.html">full authentication information</a> for more information.'
@@ -68,17 +72,20 @@ connection_requests_31 = '<h1 id="connection-requests">Connection Requests v3.1<
 connection_requests_31_hashed = '## Connection Requests v3.1'
 connection_requests_32 = '<h1 id="connection-requests">Connection Requests v3.2</h1>'
 connection_requests_32_hashed = '## Connection Requests v3.2'
-budget_title = 'Budget Service API Documentation v4.0.0'
-budget_title_updated = 'Budget'
-invoice_title = 'Invoice Payment Service API Documentation v4.0'
-invoice_title_updated = 'Invoice Pay'
+
+
 
 # Slate 'includes' folder
-to_slate_repo_includes = Path(r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\Slate-API-Explorer-Reference\slate\source\includes").listdir()
+
+to_slate_repo_includes =  Path(r"./src/Slate-API-Explorer-Reference/slate/source/includes/")
+
+# The below commented path is used for testing on the local machine. You may edit the path after the r" to the
+# location of Slate's 'includes' folder on your machine
+
+#to_slate_repo_includes = Path(r"C:\Users\I860605\Desktop\Dev_Center_New\dev_concur\src\Slate-API-Explorer-Reference\slate\source\includes").listdir()
 
 
 # Update H1 Title Tag, H1 Resource Tag, and remove Authentication section from file - These updates are needed so file renders with correct font sizes in Slate UI
-
 
 def updateTagsAndRemoveAuth():
     for swagger in to_slate_repo_includes:
@@ -87,6 +94,8 @@ def updateTagsAndRemoveAuth():
                 line = line.rstrip()
                 if h1 in line and resources in line:
                         line = line.replace(h1, h3)                                               # This will update the Resource tag from H2 to H3 - needs to be first for logic to work
+                elif h1 in line and resource in line:
+                    line = line.replace(h1, h3)
                 elif connection_requests_31 in line:
                     line = line.replace(connection_requests_31, connection_requests_31_hashed)
                 elif connection_requests_32 in line:
@@ -185,13 +194,9 @@ def updateTagsAndRemoveAuth():
                     line = line.replace(h2, h3)
                 elif toc_h2 in line:
                     line = line.replace(h2, h3)
-                elif budget_title in line:
-                    line = line.replace(budget_title, budget_title_updated)
-                elif invoice_title in line:
-                    line = line.replace(invoice_title, invoice_title_updated)
                 print (line)
                 
-
+# To retain the drop-down folders, the last file before each new folder must contain that folder's name at the end of it with an # tag.
 def retainV3_1Dropdown():
     with open("_Vendors.swagger2.json.md", "a+") as last_file:
     # Move read cursor to the start of file.
