@@ -85,9 +85,22 @@ jobs:
                 gem update --system
                 gem install bundler
   my-job5:
-    docker:
-      - image: node:8.10.0
-    steps:  
+    executor: my-executor1
+    environment:
+      BUNDLE_PATH: ~/repo/vendor/bundle 
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - rubygems-v1-{{ checksum "Gemfile.lock" }}
+            - rubygems-v1-fallback
+      - attach_workspace:
+          at: ./
+      - run:
+          name: install dependencies
+          command: |
+                gem update --system
+                gem install bundler
       - run:
           name: Generate fresh Slate Static Files
           command: bundle exec middleman build
