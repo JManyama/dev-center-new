@@ -154,15 +154,12 @@ workflows:
   version: 2
   test-deploy:
     jobs:
-      - install-node
       - my-job
-      - my-job2:
-          requires:
-            - install-node
+      - my-job2
       - my-job3
       - deploy:
           requires:
             - my-job
           filters:
             branches:
-              only: master
+              only: main
