@@ -84,7 +84,7 @@ jobs:
           command: |
                 gem update --system
                 gem install bundler
-  my_job5:
+  my-job5:
     docker:
       - image: node:8.10.0
     steps:  
