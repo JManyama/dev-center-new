@@ -84,7 +84,7 @@ jobs:
           command: |
                 gem update --system
                 gem install bundler
-  my_build:
+  my_job5:
     docker:
       - image: node:8.10.0
     steps:  
@@ -168,6 +168,7 @@ workflows:
       - my-job2
       - my-job3
       - my-job4
+      - my-job5
       - deploy:
           requires:
             - my-job
