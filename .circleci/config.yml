@@ -103,7 +103,7 @@ jobs:
                 gem install bundler
       - run:
           name: Generate fresh Slate Static Files
-          command: bundle exec middleman build
+          command: bundle install && bundle exec middleman build
     
   my-job4:
     executor: my-executor1
