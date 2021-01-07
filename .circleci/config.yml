@@ -93,7 +93,8 @@ jobs:
             - rubygems-v1-fallback
       - attach_workspace:
           at: ./
-      - run: sudo apt-get install python3 
+      - run: sudo apt-get install python3
+      - run: sudo apt-get update 
       - run: sudo apt-get install -y python3-pip 
       - run: sudo pip3 install pipenv 
       - run: pipenv install
