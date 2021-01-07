@@ -84,13 +84,13 @@ jobs:
           command: |
                 gem update --system
                 gem install bundler
-      my_build:
-        docker:
-          - image: node:8.10.0
-        steps:  
-          - run:
-              name: Generate fresh Slate Static Files
-              command: bundle exec middleman build
+  my_build:
+    docker:
+      - image: node:8.10.0
+    steps:  
+      - run:
+          name: Generate fresh Slate Static Files
+          command: bundle exec middleman build
     
   my-job4:
     executor: my-executor1
