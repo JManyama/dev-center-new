@@ -12,7 +12,7 @@ jobs:
     executor: node-js
     steps:
       - checkout
-      - run: ECHO "Node Installed"
+      - run: echo "Node Installed"
         
   my-job:
     executor: my-executor1
