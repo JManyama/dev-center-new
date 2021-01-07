@@ -1,22 +1,4 @@
----
-title: Digital Tax Invoices v3.0
-language_tabs:
-  - shell: Shell
-  - http: HTTP
-  - javascript: JavaScript
-  - ruby: Ruby
-  - python: Python
-  - php: PHP
-  - java: Java
-  - go: Go
-toc_footers: []
-includes: []
-search: true
-highlight_theme: darkula
-headingLevel: 2
-generator: widdershins v4.0.1
 
----
 
 <h2 id="digital-tax-invoices">Digital Tax Invoices v3.0</h2>
 
