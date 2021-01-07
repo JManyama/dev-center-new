@@ -67,25 +67,9 @@ jobs:
           no_output_timeout: 30m
           command: cd ./src/Slate-API-Explorer-Reference/slate && bundle install
     
+  
   my-job3:
-    executor: my-executor1
-    environment:
-      BUNDLE_PATH: ~/repo/vendor/bundle 
-    steps:
-      - checkout
-      - restore_cache:
-          keys:
-            - rubygems-v1-{{ checksum "Gemfile.lock" }}
-            - rubygems-v1-fallback
-      - attach_workspace:
-          at: ./
-      - run:
-          name: install dependencies
-          command: |
-                gem update --system
-                gem install bundler
-  my-job5:
-    executor: my-executor1
+    executor: my-executor2
     environment:
       BUNDLE_PATH: ~/repo/vendor/bundle 
     steps:
@@ -103,7 +87,7 @@ jobs:
                 gem install bundler
       - run:
           name: Generate fresh Slate Static Files
-          command: bundle install && bundle exec middleman build
+          command: cd ./src/Slate-API-Explorer-Reference/slate && bundle exec middleman build
     
   my-job4:
     executor: my-executor1
@@ -181,7 +165,6 @@ workflows:
       - my-job2
       - my-job3
       - my-job4
-      - my-job5
       - deploy:
           requires:
             - my-job
