@@ -50,7 +50,7 @@ includes:
   - ConcurRequest.swagger2.json
   
 toc_footers:
-  - <a id="toc-size" href='/'>Back To Developer Center</a>
+  - <a id="toc-size" href='/'> Back To Developer Center</a>
 search: true
 highlight_theme: darkula
 headingLevel: 2
