@@ -1,25 +1,4 @@
----
-title: Financial Integration API v4
-language_tabs:
-  - shell: Shell
-  - http: HTTP
-  - javascript: JavaScript
-  - ruby: Ruby
-  - python: Python
-  - php: PHP
-  - java: Java
-  - go: Go
-toc_footers:
-  - <a
-    href="https://developer.concur.com/api-reference/financial-integration/v4.financial-documents-schema.html">Financial
-    Documents Schema Documentation</a>
-includes: []
-search: true
-highlight_theme: darkula
-headingLevel: 2
-generator: widdershins v4.0.1
 
----
 
 <h2 id="financial-integration-api">Financial Integration API v4</h2>
 

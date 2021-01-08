@@ -1,22 +1,4 @@
----
-title: Real Time Location Ingestion Service v1.0
-language_tabs:
-  - shell: Shell
-  - http: HTTP
-  - javascript: JavaScript
-  - ruby: Ruby
-  - python: Python
-  - php: PHP
-  - java: Java
-  - go: Go
-toc_footers: []
-includes: []
-search: true
-highlight_theme: darkula
-headingLevel: 2
-generator: widdershins v4.0.1
 
----
 
 <h2 id="real-time-location-ingestion-service">Real Time Location Ingestion Service v1.0</h2>
 

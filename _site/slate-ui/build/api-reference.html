@@ -279,7 +279,7 @@
   color: #859900;
 }
     </style>
-    <link href="stylesheets/screen-9da92d85.css" rel="stylesheet" media="screen" />
+    <link href="stylesheets/screen-9d6a242e.css" rel="stylesheet" media="screen" />
     <link href="stylesheets/print-953e3353.css" rel="stylesheet" media="print" />
       <script src="javascripts/all-5c176cca.js"></script>
 
@@ -3705,7 +3705,7 @@ Accept: application/json
 </ul></li>
 <li><a href="#responseHeaders">Response Headers</a></li>
 </ul>
-<h4 id='get-all-budget-items'><a name="getall"></a>GET All Budget Items</h4>
+<h3 id='get-all-budget-items'><a name="getall"></a>GET All Budget Items</h3>
 <p>Retrieve all budget items in groups of up to 50 items.  Due to response size and performance considerations, this endpoint does not return <code>budgetItemDetails</code>.  Use the <a href="#get">GET a Budget Item</a> to retrieve all the details for a single budget.</p>
 <h3 id='scopes'>Scopes</h3>
 <p>This API call requires one of the following scopes:</p>
@@ -3868,7 +3868,16 @@ Accept: application/json
   </span><span class="p">},</span><span class="w">
   </span><span class="nl">"previous"</span><span class="p">:</span><span class="kc">null</span><span class="w">
 </span><span class="p">}</span><span class="w">
-</span></code></pre></div><h4 id='get-a-budget-item'><a name="get"></a>GET a Budget Item</h4>
+</span></code></pre></div>
+<p><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br></p>
+<h3 id='get-a-budget-item'><a name="get"></a>GET a Budget Item</h3>
 <p>Retrieve the details of a single budget item.</p>
 <h3 id='scopes-2'>Scopes</h3>
 <p>This API call requires one of the following scopes:</p>
@@ -3877,8 +3886,8 @@ Accept: application/json
 <li><code>budgetitem.read</code> - Refer to <a href="./getting-started.html">Scope Usage</a> for full details.</li>
 <li><code>budgetitem.write</code> - Refer to <a href="./getting-started.html">Scope Usage</a> for full details.</li>
 </ul>
-<h3 id='request-3'>Request</h3><h4 id='uri-2'>URI</h4><h4 id='template-2'>Template</h4><div class="highlight"><pre class="highlight shell tab-shell"><code>GET  /budget/v4/budgetItemHeader/<span class="o">{</span><span class="nb">id</span><span class="o">}</span>
-</code></pre></div><h4 id='parameters-2'>Parameters</h4>
+<h3 id='request-3'>Request</h3><h4 id='uri-2'>URI</h4><div class="highlight"><pre class="highlight shell tab-shell"><code>GET  /budget/v4/budgetItemHeader/<span class="o">{</span><span class="nb">id</span><span class="o">}</span>
+</code></pre></div><h4 id='template-2'>Template</h4><h4 id='parameters-2'>Parameters</h4>
 <table><thead>
 <tr>
 <th>Name</th>
@@ -4207,7 +4216,12 @@ Authorization: Bearer {token}
       </span><span class="nl">"customFiscalPeriods"</span><span class="p">:[],</span><span class="w">
     </span><span class="p">}</span><span class="w">
   </span><span class="p">}</span><span class="w">
-</span></code></pre></div><h4 id='post-a-budget-item'><a name="post"></a>POST a Budget Item</h4>
+</span></code></pre></div>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id='post-a-budget-item'><a name="post"></a>POST a Budget Item</h3>
 <p>Save a new budget or update an existing budget.</p>
 <h3 id='scopes-3'>Scopes</h3>
 <p><code>budgetitem.write</code> - Refer to <a href="./getting-started.html">Scope Usage</a> for full details.</p>
@@ -23789,7 +23803,7 @@ Content-Length: 405
 <td>The external system ID that acknowledged the document. Maximum 50 chars.</td>
 </tr>
 </tbody></table>
-<h4 id='example-financial-documents'><a name="example"></a>Example Financial Documents</h4><h3 id='expense'><a name="example-expense"></a>Expense</h3><div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+<h3 id='example-financial-documents'><a name="example"></a>Example Financial Documents</h3><h4 id='expense'><a name="example-expense"></a>Expense</h4><div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
    </span><span class="nl">"employee"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
       </span><span class="nl">"employeeFirstName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"FirstName"</span><span class="p">,</span><span class="w">
       </span><span class="nl">"employeeLastName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"LastName"</span><span class="p">,</span><span class="w">
@@ -38957,7 +38971,7 @@ Content-Type: application/xml
 <li>Request v3 documentation is available <a href="./v3.request.html">here</a>.</li>
 </ul>
 <h4 id='process-flow'><a name="process-flow"></a>Process Flow</h4>
-<p><img src="images/v4.request-process-flow.png" alt="Process Flow for Request V4" /></p>
+<p><img src="images/v4.request-process-flow-2079ae6c.png" alt="Process Flow for Request V4" /></p>
 <h4 id='products-and-editions'><a name="products-editions"></a>Products and Editions</h4>
 <ul>
 <li>Concur Request Professional Edition</li>

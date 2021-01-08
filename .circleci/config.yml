@@ -32,9 +32,9 @@ jobs:
       - run: sudo pip3 install pipenv 
       - run: pipenv install
       - run: pipenv install Unipath
-      - run:
-          name: Widdershins
-          command: pipenv run python ./z_widdershins_recursive.py
+      #- run:
+       #   name: Widdershins
+       #   command: pipenv run python ./z_widdershins_recursive.py
       - run:
           name: Add Underscore V3.0
           command: pipenv run python ./src/api-explorer/v3-0/z_underscore_v3_0.py
@@ -50,9 +50,9 @@ jobs:
       - run:
           name: Move From Dev Center To Slate
           command: pipenv run python ./z_dc_to_slate.py
-      - run:
-          name: Adjust Tags and Content
-          command: pipenv run python ./src/Slate-API-Explorer-Reference/slate/source/includes/z_update_swagger_tags.py
+      #- run:
+          #name: Adjust Tags and Content
+          #command: pipenv run python ./src/Slate-API-Explorer-Reference/slate/source/includes/z_update_swagger_tags.py
       
   my-job2:
     executor: my-executor1
