@@ -5,7 +5,7 @@ executors:
       - image: node:8.10.0  
   my-executor1:
     docker:
-      - image: cimg/ruby:2.7.2-node
+      - image: cimg/ruby:2.7.1-node
 
 jobs:
   install-node:
